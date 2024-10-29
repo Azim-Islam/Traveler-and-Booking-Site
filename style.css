@@ -515,3 +515,28 @@
     background-color: #EBEBEB;
 }
 /* BOTTOM THINGY END */
+
+
+
+
+@media screen and (max-width: 1070px) {
+    .t-nav-item{
+        margin-left: 24px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .t-nav-item{
+        margin-left: 0px;
+        padding: 0.5rem !important;
+    }
+    .t-override-left-m-0{
+        margin-left: 0px;
+        color: #2F80ED;
+        padding: 1rem
+    }
+
+    .t-nav-buttons-ms-override{
+        margin-left: 50% !important;
+    }
+}
