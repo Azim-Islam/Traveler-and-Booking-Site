@@ -7,6 +7,11 @@
 
 .t-override-left-m-0{
     margin-left: 0px !important;
+    color: #2F80ED;
+}
+
+.t-url{
+    text-decoration: none;
 }
 
 .t-main-container-padding {
@@ -126,21 +131,51 @@
 
 .t-hero-items-container {
     background: white;
-    width: 80% !important; 
+    width: 84% !important; 
     box-shadow: 0px 4px 37px 0px #00000026;
+    max-width: 1030px;
+    height: 64px;
+}
 
+.t-input-group-item{
+    height: 43px;
 }
 
 .t-hero-input-group-text {
     /* background: #F2F2F2; */
+    border-width: 0px !important;
     background: #F2F2F2 !important;
 }
 
 .t-hero-input-group-input {
+    border-width: 0px !important;
     /* background: #F2F2F2; */
     background: #F2F2F2 !important;
     border-left: none !important;
     padding-left: 0px !important;
+    --bs-border-color: none;
+}
+
+.form-control:focus{
+    /* border-style: none !important;
+    border: none !important; */
+    border-width: 0px !important;
+    border: var(--bs-border-width) solid var(--bs-border-color) !important;
+    border-left-width: 0px !important;
+    box-shadow: none !important;
+}
+
+.form-control:active{
+    border-width: 0px !important;
+    border: var(--bs-border-width) solid var(--bs-border-color) !important;
+    border-left-width: 0px !important;
+    box-shadow: none !important;
+}
+
+.form-control:focus-visible{
+    /* border-style: none !important;
+    border: none !important; */
+    box-shadow: none !important;
 }
 
 .t-hero-button-primary {
@@ -165,3 +200,23 @@
 }
 
 /* HERO END */
+
+
+/* COVID START */
+.t-covid-warning{
+    height: 72px;
+    width: 100%;
+    margin: 0px;
+    padding: 20px;
+    background-color: #FCEFCA;
+    border-radius: 8px;
+
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    letter-spacing: 0.02em;
+    text-align: left;
+
+}
+/* COVID END */
