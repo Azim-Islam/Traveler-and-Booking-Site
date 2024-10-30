@@ -1,0 +1,147 @@
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+
+.s-mt-36 {
+    margin-top: 36px !important;
+}
+
+.s-mt-92 {
+    margin-top: 92px !important;
+}
+
+.s-input-label {
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 19.6px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #181818;
+}
+
+.s-input-field {
+    background: #F2F2F2 !important;
+    border-radius: 4px !important;
+    border-style: none !important;
+    border-width: 0px !important;
+    height: 44px;
+}
+
+.s-signin-card{
+    max-width: 400px !important;
+}
+
+
+.form-control:focus{
+    /* border-style: none !important;
+    border: none !important; */
+    border-width: 0px !important;
+    border: var(--bs-border-width) solid var(--bs-border-color) !important;
+    border-left-width: 0px !important;
+    box-shadow: none !important;
+}
+
+.form-control:active{
+    border-width: 0px !important;
+    border: var(--bs-border-width) solid var(--bs-border-color) !important;
+    border-left-width: 0px !important;
+    box-shadow: none !important;
+}
+
+.form-control:focus-visible{
+    /* border-style: none !important;
+    border: none !important; */
+    box-shadow: none !important;
+}
+
+
+.s-signin-button {
+    height: 44px;
+    /* padding: 10px 18px 10px 18px; */
+    border-radius: 6px;
+    border: 1px;
+    opacity: 0px;
+
+    color: white !important;
+    border-style: solid !important;
+    border-color: #2F80ED !important;
+    background-color: #2F80ED !important;
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+}
+
+/* .s-password-input::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: white;
+    display:inline-block;
+    background: black;
+} */
+
+
+
+.s-segment-p{
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #4F4F4F;
+
+}
+
+.s-bar{
+    height: 1px;
+    background: #E0E0E0;
+}
+
+.s-google-button {
+    height: 44px;
+    /* padding: 10px 18px 10px 18px; */
+    border-radius: 6px;
+    border: 1px;
+    opacity: 0px;
+    color: #4F4F4F !important;
+    border-style: solid !important;
+    border-color: #2F80ED !important;
+    background-color: #ffffff !important;
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    border-color: #E0E0E0 !important;
+
+}
+
+.s-facebook-button {
+    height: 44px;
+    /* padding: 10px 18px 10px 18px; */
+    border-radius: 6px;
+    border: 1px;
+    opacity: 0px;
+    color: white !important;
+    border-style: solid !important;
+    border-color: #2F80ED !important;
+    background-color: #475993!important;
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    border-color: #475993 !important;
+}
+
+.s-no-acc-p{
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.09px;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
