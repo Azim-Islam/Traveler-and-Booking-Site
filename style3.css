@@ -1,11 +1,20 @@
 
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+.navbar-toggler:focus {
+	text-decoration: none;
+	outline: 0;
+	box-shadow: 0px 0px 7px 2px rgba(227,227,227,0.68) !important;
+}
 
 .r-nav-bg{
     background: linear-gradient(180deg, #2969BF 0%, #144E9D 100%);
 }
 
 .r-nav-height{
-    height: 200px;   
+    min-height: 200px;   
 }
 
 .r-mt-104 {
@@ -83,8 +92,8 @@
 }
 
 .r-rating-button{
-    max-height: 46px !important;
-    max-width: 50px !important;
+    height: 46px !important;
+    width: 50px !important;
     font-family: 'SF Pro Display', sans-serif;
     font-size: 16px;
     font-weight: 400;
@@ -192,13 +201,16 @@
 }
 
 .r-place-card {
-    height: 240px;
+    min-height: 240px;
     border-style: solid;
     border-color: #E0E0E0; 
     border-radius: 5px;
     border-width: 1px;
 }
 
+.r-card-col-height{
+    height: 240px;
+}
 
 .r-search-card-img{
     height: 200px;
@@ -272,7 +284,7 @@
 }
 
 .r-badge-1{
-    height: 26px;
+    /* height: 26px; */
     /* width: 190px; */
     background-color: #EB5757;
     font-family: 'SF Pro Display', sans-serif;
@@ -290,7 +302,7 @@
 }
 
 .r-badge-3{
-    height: 26px;
+    /* height: 26px; */
     /* width: 190px; */
     background-color: #F2994A;
     font-family: 'SF Pro Display', sans-serif;
@@ -309,7 +321,7 @@
 
 
 .r-badge-2{
-    height: 26px;
+    /* height: 26px; */
     /* width: 190px; */
     background-color: #219653;
     font-family: 'SF Pro Display', sans-serif;
@@ -356,3 +368,163 @@
     color: #EB5757;
     text-decoration: line-through;
 }
+
+
+.r-filter-items{
+    width: 190px;
+}
+
+@media screen and (max-width: 1400px){
+    .r-rating-button{
+        height: 40px !important;
+        width: 40px !important;
+        font-family: 'SF Pro Display', sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14px;
+        letter-spacing: 0.02em;
+        text-align: left;
+        text-decoration-color: #333333;
+        /* border-radius: 5px !important; */
+        border-width: 1px !important;
+        border-color: #E0E0E0 !important;
+    }
+    
+}
+
+@media screen and (max-width: 1200px){
+    .r-mt-104 {
+        margin-top: 60px !important;
+    }
+}
+
+@media screen and (max-width: 1070px) {
+    .r-nav-item{
+        margin-left: 24px;
+    }
+}
+
+
+@media screen and (max-width: 992px) {
+
+    .r-mt-104 {
+        margin-top: 30px !important;
+    }
+
+    .r-nav-height{
+        min-height: 80px;   
+    }
+
+    .r-nav-item{
+        margin-left: 0px;
+        padding: 0.5rem !important;
+    }
+    .r-override-left-m-0{
+        margin-left: 0px;
+        color: #2F80ED;
+        padding: 1rem
+    }
+
+    .t-nav-buttons-ms-override{
+        margin-left: 50% !important;
+        transform: translate(-50%);
+    }
+
+
+}
+
+
+@media screen and (max-width: 991px) {
+}
+
+@media screen and (max-width: 768px){
+    .r-search-heading {
+        font-family: 'SF Pro Display', sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 28.64px;
+        text-align: left;
+        color: #181818;
+    }
+
+    .r-dropdown-button{
+        height: 48px !important;
+        width: 150px !important;
+        background-color: white !important;
+        padding: 0px !important;
+        text-align: left !important;
+        border-width: 1px !important;
+        border-color: #BDBDBD;
+    }
+    
+
+    .r-filter-items{
+        height: 48px !important;
+        width: 150px;
+    }
+
+    .r-pick-button{
+        height: 40px !important;
+        padding-left: 18px;
+        padding-right: 18px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-family: 'SF Pro Display', sans-serif !important;
+        font-size: 12px;
+        line-height: 19.09px;
+        letter-spacing: 0.02em;
+        text-align: left;
+        border-style: solid;
+        border-width: 1px !important;
+        border-radius: 6px 0px 0px 6px;
+        border-color: #2F80ED !important;
+        background: #2F80ED0D !important;
+        color: #2F80ED !important;
+    } 
+    .r-pick-button-mid{
+        height: 40px !important;
+        padding-left: 18px;
+        padding-right: 18px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-family: 'SF Pro Display', sans-serif;
+        font-size: 12px;
+        line-height: 19.09px;
+        letter-spacing: 0.02em;
+        text-align: left;
+        border-style: solid;
+        border-width: 1px 1px 1px 0px;
+        border-radius: 0px 0px 0px 0px;
+        border-color: #2F80ED !important;
+        color:#4F4F4F !important;
+        
+    }
+    .r-pick-button-end{
+        height: 40px !important;
+        padding-left: 18px;
+        padding-right: 18px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-family: 'SF Pro Display', sans-serif;
+        font-size: 12px;
+        line-height: 19.09px;
+        letter-spacing: 0.02em;
+        text-align: left;
+        border-style: solid;
+        border-width: 1px 1px 1px 0px;
+        border-radius: 0px 6px 6px 0px;
+        border-color: #2F80ED !important;
+        color:#4F4F4F !important;
+    }
+    
+    
+}
+
+
+@media screen and (max-width: 576px){
+    
+    .r-card-col-height{
+        height: 400px;
+    }
+
+} 
