@@ -29,6 +29,27 @@
     margin-top: 28px;
 }
 
+.r-mt-40{
+    margin-top: 40px !important;
+}
+
+.r-load-more-button{
+    height: 40px;
+    width: 156px;
+    background-color: #2F80ED1A !important;
+    color: #2F80ED !important;
+    border-radius: 6px !important;
+    font-family: 'SF Pro Display', sans-serif !important;
+    font-size: 15px !important;
+    font-weight: 500 !important;
+    line-height: 20px !important;
+    letter-spacing: 0.02em !important;
+    text-align: center !important;
+    border-style: none !important;
+
+}   
+
+
 .r-nav-item{
     font-family: 'SF Pro Display', sans-serif;
     font-size: 16px !important;
@@ -201,7 +222,7 @@
 }
 
 .r-place-card {
-    min-height: 240px;
+    /* min-height: 240px; */
     border-style: solid;
     border-color: #E0E0E0; 
     border-radius: 5px;
