@@ -140,7 +140,8 @@
 
 
 .p-right-column-width{
-    width: 400px;
+    /* width: 400px; */
+    width: 100%;
 }
 
 .p-room-card{
@@ -177,6 +178,15 @@
 .p-trips-section{
     min-height: 600px;
 }
+
+
+@media screen and (max-width: 768px) {
+    .p-image-container{
+        height: 350px;
+    }
+    
+}
+
 
 @media screen and (max-width: 1200px) {
     .p-p-40{
