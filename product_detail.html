@@ -18,397 +18,1349 @@
   </head>
   <body>
     <!-- NAVBAR START  -->
-    <nav class="navbar navbar-expand-lg bg-body-white t-nav-height t-main-container-padding">
-    <div class="container-fluid pe-0 ps-0">
+    <nav
+      class="navbar navbar-expand-lg bg-body-white t-nav-height t-main-container-padding"
+    >
+      <div class="container-fluid pe-0 ps-0">
         <a class="navbar-brand p-0 m-0 h-100 d-flex" href="#">
-        <svg
+          <svg
             width="159"
             height="24"
             viewBox="0 0 159 24"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
-        >
+          >
             <path
-            d="M3.414 13.7779C2.5 13.9999 2 15.1919 2 15.1919C2 15.1919 5.398 15.6259 6.949 17.3129C8.5 18.9999 9.071 22.2629 9.071 22.2629C9.071 22.2629 10.47 22.6979 10.485 20.8489C10.5 18.9999 9.778 17.3129 9.778 17.3129L13.091 13.9999L16.701 21.7039C16.701 21.7039 18.08 22.2299 18.04 20.3649C18 18.4999 16.85 10.2419 16.85 10.2419L19.678 7.41294C19.869 7.22845 20.0214 7.00776 20.1262 6.76375C20.231 6.51974 20.2862 6.2573 20.2885 5.99174C20.2908 5.72619 20.2402 5.46283 20.1396 5.21703C20.0391 4.97124 19.8906 4.74794 19.7028 4.56015C19.515 4.37237 19.2917 4.22386 19.0459 4.1233C18.8001 4.02274 18.5368 3.97213 18.2712 3.97444C18.0056 3.97675 17.7432 4.03192 17.4992 4.13674C17.2552 4.24156 17.0345 4.39392 16.85 4.58494L13.947 7.48794C13.947 7.48794 6.148 6.09394 3.824 6.29694C1.5 6.49994 2.559 7.56294 2.559 7.56294L10.203 11.2329L6.95 14.4859C6.95 14.4859 4.328 13.5559 3.414 13.7779Z"
-            fill="#2F80ED"
+              d="M3.414 13.7779C2.5 13.9999 2 15.1919 2 15.1919C2 15.1919 5.398 15.6259 6.949 17.3129C8.5 18.9999 9.071 22.2629 9.071 22.2629C9.071 22.2629 10.47 22.6979 10.485 20.8489C10.5 18.9999 9.778 17.3129 9.778 17.3129L13.091 13.9999L16.701 21.7039C16.701 21.7039 18.08 22.2299 18.04 20.3649C18 18.4999 16.85 10.2419 16.85 10.2419L19.678 7.41294C19.869 7.22845 20.0214 7.00776 20.1262 6.76375C20.231 6.51974 20.2862 6.2573 20.2885 5.99174C20.2908 5.72619 20.2402 5.46283 20.1396 5.21703C20.0391 4.97124 19.8906 4.74794 19.7028 4.56015C19.515 4.37237 19.2917 4.22386 19.0459 4.1233C18.8001 4.02274 18.5368 3.97213 18.2712 3.97444C18.0056 3.97675 17.7432 4.03192 17.4992 4.13674C17.2552 4.24156 17.0345 4.39392 16.85 4.58494L13.947 7.48794C13.947 7.48794 6.148 6.09394 3.824 6.29694C1.5 6.49994 2.559 7.56294 2.559 7.56294L10.203 11.2329L6.95 14.4859C6.95 14.4859 4.328 13.5559 3.414 13.7779Z"
+              fill="#2F80ED"
             />
             <path
-            d="M28.9404 18.5H30.8389V12.7871C30.8389 11.6006 31.6387 10.7217 32.7637 10.7217C33.8359 10.7217 34.5127 11.3984 34.5127 12.4619V18.5H36.376V12.7256C36.376 11.5566 37.1582 10.7217 38.2832 10.7217C39.4082 10.7217 40.0498 11.4072 40.0498 12.6025V18.5H41.957V12.1455C41.957 10.3086 40.7617 9.0957 38.9336 9.0957C37.6152 9.0957 36.5254 9.78125 36.0508 10.9062H36.0068C35.6377 9.75488 34.7061 9.0957 33.4229 9.0957C32.1748 9.0957 31.208 9.78125 30.7949 10.8096H30.751V9.25391H28.9404V18.5ZM45.068 21.9453C46.9928 21.9453 47.8981 21.2246 48.6891 18.9834L52.1608 9.25391H50.1569L47.8102 16.7773H47.7838L45.4371 9.25391H43.3805L46.7204 18.5088C46.7204 18.5176 46.5534 19.0625 46.5534 19.0801C46.2633 20.0293 45.7975 20.3984 44.9098 20.3984C44.7516 20.3984 44.4352 20.3984 44.2946 20.3633V21.9014C44.4352 21.9277 44.9186 21.9453 45.068 21.9453ZM57.8818 5.81738V18.5H62.3554C66.1347 18.5 68.3583 16.1445 68.3583 12.1367C68.3583 8.1377 66.1259 5.81738 62.3554 5.81738H57.8818ZM59.8505 7.51367H62.1708C64.8515 7.51367 66.3456 9.16602 66.3456 12.1543C66.3456 15.1514 64.8603 16.7949 62.1708 16.7949H59.8505V7.51367ZM70.3707 18.5H72.2691V12.9629C72.2691 11.6533 73.025 10.8359 74.2466 10.8359C74.6158 10.8359 74.9498 10.8799 75.0992 10.9414V9.1748C74.9586 9.14844 74.7212 9.10449 74.4488 9.10449C73.3589 9.10449 72.5328 9.74609 72.2252 10.8271H72.1812V9.25391H70.3707V18.5ZM80.0998 10.6162C81.427 10.6162 82.3234 11.6094 82.3674 13.0244H77.7443C77.841 11.627 78.7727 10.6162 80.0998 10.6162ZM82.3586 15.7842C82.1037 16.5928 81.3039 17.1377 80.2229 17.1377C78.7023 17.1377 77.7355 16.0742 77.7355 14.4658V14.3516H84.2658V13.7012C84.2658 10.8975 82.6662 9.08691 80.0998 9.08691C77.4895 9.08691 75.8195 11.0205 75.8195 13.9209C75.8195 16.8389 77.4631 18.6758 80.1789 18.6758C82.2971 18.6758 83.8967 17.4717 84.1604 15.7842H82.3586ZM89.3368 17.1553C88.3172 17.1553 87.6493 16.6279 87.6493 15.8193C87.6493 15.0283 88.2909 14.5273 89.4246 14.4482L91.701 14.3076V15.0371C91.701 16.2412 90.6639 17.1553 89.3368 17.1553ZM88.8094 18.6582C90.0223 18.6582 91.1912 18.0078 91.7274 16.9795H91.7713V18.5H93.5907V12.1279C93.5907 10.2734 92.158 9.08691 89.9168 9.08691C87.6317 9.08691 86.2079 10.3174 86.1024 11.9873H87.8954C88.0623 11.1611 88.7479 10.6338 89.8465 10.6338C91.0067 10.6338 91.701 11.249 91.701 12.2773V12.9893L89.1698 13.1387C86.9725 13.2617 85.7332 14.2549 85.7332 15.8721C85.7332 17.5332 86.9989 18.6582 88.8094 18.6582ZM95.7964 18.5H97.6948V12.7871C97.6948 11.6006 98.4946 10.7217 99.6196 10.7217C100.692 10.7217 101.369 11.3984 101.369 12.4619V18.5H103.232V12.7256C103.232 11.5566 104.014 10.7217 105.139 10.7217C106.264 10.7217 106.906 11.4072 106.906 12.6025V18.5H108.813V12.1455C108.813 10.3086 107.618 9.0957 105.79 9.0957C104.471 9.0957 103.381 9.78125 102.907 10.9062H102.863C102.494 9.75488 101.562 9.0957 100.279 9.0957C99.0307 9.0957 98.0639 9.78125 97.6509 10.8096H97.6069V9.25391H95.7964V18.5ZM115.255 5.81738V18.5H117.223V14.167H119.948C122.435 14.167 124.184 12.4619 124.184 9.9834C124.184 7.51367 122.47 5.81738 120.01 5.81738H115.255ZM117.223 7.47852H119.491C121.196 7.47852 122.172 8.39258 122.172 9.99219C122.172 11.5918 121.196 12.5146 119.482 12.5146H117.223V7.47852ZM126.109 18.5H128.007V5.81738H126.109V18.5ZM133.553 17.1553C132.533 17.1553 131.865 16.6279 131.865 15.8193C131.865 15.0283 132.507 14.5273 133.641 14.4482L135.917 14.3076V15.0371C135.917 16.2412 134.88 17.1553 133.553 17.1553ZM133.025 18.6582C134.238 18.6582 135.407 18.0078 135.943 16.9795H135.987V18.5H137.807V12.1279C137.807 10.2734 136.374 9.08691 134.133 9.08691C131.848 9.08691 130.424 10.3174 130.318 11.9873H132.111C132.278 11.1611 132.964 10.6338 134.063 10.6338C135.223 10.6338 135.917 11.249 135.917 12.2773V12.9893L133.386 13.1387C131.189 13.2617 129.949 14.2549 129.949 15.8721C129.949 17.5332 131.215 18.6582 133.025 18.6582ZM147.949 12.4355C147.782 10.6162 146.332 9.08691 143.95 9.08691C141.322 9.08691 139.599 10.9414 139.599 13.877C139.599 16.8652 141.322 18.6758 143.967 18.6758C146.191 18.6758 147.764 17.3398 147.966 15.3711H146.138C145.919 16.4434 145.154 17.085 143.985 17.085C142.508 17.085 141.533 15.9072 141.533 13.877C141.533 11.8906 142.5 10.6689 143.967 10.6689C145.207 10.6689 145.945 11.4512 146.138 12.4355H147.949ZM153.538 10.6162C154.866 10.6162 155.762 11.6094 155.806 13.0244H151.183C151.28 11.627 152.211 10.6162 153.538 10.6162ZM155.797 15.7842C155.542 16.5928 154.743 17.1377 153.661 17.1377C152.141 17.1377 151.174 16.0742 151.174 14.4658V14.3516H157.704V13.7012C157.704 10.8975 156.105 9.08691 153.538 9.08691C150.928 9.08691 149.258 11.0205 149.258 13.9209C149.258 16.8389 150.902 18.6758 153.618 18.6758C155.736 18.6758 157.335 17.4717 157.599 15.7842H155.797Z"
-            fill="#1B1F2D"
+              d="M28.9404 18.5H30.8389V12.7871C30.8389 11.6006 31.6387 10.7217 32.7637 10.7217C33.8359 10.7217 34.5127 11.3984 34.5127 12.4619V18.5H36.376V12.7256C36.376 11.5566 37.1582 10.7217 38.2832 10.7217C39.4082 10.7217 40.0498 11.4072 40.0498 12.6025V18.5H41.957V12.1455C41.957 10.3086 40.7617 9.0957 38.9336 9.0957C37.6152 9.0957 36.5254 9.78125 36.0508 10.9062H36.0068C35.6377 9.75488 34.7061 9.0957 33.4229 9.0957C32.1748 9.0957 31.208 9.78125 30.7949 10.8096H30.751V9.25391H28.9404V18.5ZM45.068 21.9453C46.9928 21.9453 47.8981 21.2246 48.6891 18.9834L52.1608 9.25391H50.1569L47.8102 16.7773H47.7838L45.4371 9.25391H43.3805L46.7204 18.5088C46.7204 18.5176 46.5534 19.0625 46.5534 19.0801C46.2633 20.0293 45.7975 20.3984 44.9098 20.3984C44.7516 20.3984 44.4352 20.3984 44.2946 20.3633V21.9014C44.4352 21.9277 44.9186 21.9453 45.068 21.9453ZM57.8818 5.81738V18.5H62.3554C66.1347 18.5 68.3583 16.1445 68.3583 12.1367C68.3583 8.1377 66.1259 5.81738 62.3554 5.81738H57.8818ZM59.8505 7.51367H62.1708C64.8515 7.51367 66.3456 9.16602 66.3456 12.1543C66.3456 15.1514 64.8603 16.7949 62.1708 16.7949H59.8505V7.51367ZM70.3707 18.5H72.2691V12.9629C72.2691 11.6533 73.025 10.8359 74.2466 10.8359C74.6158 10.8359 74.9498 10.8799 75.0992 10.9414V9.1748C74.9586 9.14844 74.7212 9.10449 74.4488 9.10449C73.3589 9.10449 72.5328 9.74609 72.2252 10.8271H72.1812V9.25391H70.3707V18.5ZM80.0998 10.6162C81.427 10.6162 82.3234 11.6094 82.3674 13.0244H77.7443C77.841 11.627 78.7727 10.6162 80.0998 10.6162ZM82.3586 15.7842C82.1037 16.5928 81.3039 17.1377 80.2229 17.1377C78.7023 17.1377 77.7355 16.0742 77.7355 14.4658V14.3516H84.2658V13.7012C84.2658 10.8975 82.6662 9.08691 80.0998 9.08691C77.4895 9.08691 75.8195 11.0205 75.8195 13.9209C75.8195 16.8389 77.4631 18.6758 80.1789 18.6758C82.2971 18.6758 83.8967 17.4717 84.1604 15.7842H82.3586ZM89.3368 17.1553C88.3172 17.1553 87.6493 16.6279 87.6493 15.8193C87.6493 15.0283 88.2909 14.5273 89.4246 14.4482L91.701 14.3076V15.0371C91.701 16.2412 90.6639 17.1553 89.3368 17.1553ZM88.8094 18.6582C90.0223 18.6582 91.1912 18.0078 91.7274 16.9795H91.7713V18.5H93.5907V12.1279C93.5907 10.2734 92.158 9.08691 89.9168 9.08691C87.6317 9.08691 86.2079 10.3174 86.1024 11.9873H87.8954C88.0623 11.1611 88.7479 10.6338 89.8465 10.6338C91.0067 10.6338 91.701 11.249 91.701 12.2773V12.9893L89.1698 13.1387C86.9725 13.2617 85.7332 14.2549 85.7332 15.8721C85.7332 17.5332 86.9989 18.6582 88.8094 18.6582ZM95.7964 18.5H97.6948V12.7871C97.6948 11.6006 98.4946 10.7217 99.6196 10.7217C100.692 10.7217 101.369 11.3984 101.369 12.4619V18.5H103.232V12.7256C103.232 11.5566 104.014 10.7217 105.139 10.7217C106.264 10.7217 106.906 11.4072 106.906 12.6025V18.5H108.813V12.1455C108.813 10.3086 107.618 9.0957 105.79 9.0957C104.471 9.0957 103.381 9.78125 102.907 10.9062H102.863C102.494 9.75488 101.562 9.0957 100.279 9.0957C99.0307 9.0957 98.0639 9.78125 97.6509 10.8096H97.6069V9.25391H95.7964V18.5ZM115.255 5.81738V18.5H117.223V14.167H119.948C122.435 14.167 124.184 12.4619 124.184 9.9834C124.184 7.51367 122.47 5.81738 120.01 5.81738H115.255ZM117.223 7.47852H119.491C121.196 7.47852 122.172 8.39258 122.172 9.99219C122.172 11.5918 121.196 12.5146 119.482 12.5146H117.223V7.47852ZM126.109 18.5H128.007V5.81738H126.109V18.5ZM133.553 17.1553C132.533 17.1553 131.865 16.6279 131.865 15.8193C131.865 15.0283 132.507 14.5273 133.641 14.4482L135.917 14.3076V15.0371C135.917 16.2412 134.88 17.1553 133.553 17.1553ZM133.025 18.6582C134.238 18.6582 135.407 18.0078 135.943 16.9795H135.987V18.5H137.807V12.1279C137.807 10.2734 136.374 9.08691 134.133 9.08691C131.848 9.08691 130.424 10.3174 130.318 11.9873H132.111C132.278 11.1611 132.964 10.6338 134.063 10.6338C135.223 10.6338 135.917 11.249 135.917 12.2773V12.9893L133.386 13.1387C131.189 13.2617 129.949 14.2549 129.949 15.8721C129.949 17.5332 131.215 18.6582 133.025 18.6582ZM147.949 12.4355C147.782 10.6162 146.332 9.08691 143.95 9.08691C141.322 9.08691 139.599 10.9414 139.599 13.877C139.599 16.8652 141.322 18.6758 143.967 18.6758C146.191 18.6758 147.764 17.3398 147.966 15.3711H146.138C145.919 16.4434 145.154 17.085 143.985 17.085C142.508 17.085 141.533 15.9072 141.533 13.877C141.533 11.8906 142.5 10.6689 143.967 10.6689C145.207 10.6689 145.945 11.4512 146.138 12.4355H147.949ZM153.538 10.6162C154.866 10.6162 155.762 11.6094 155.806 13.0244H151.183C151.28 11.627 152.211 10.6162 153.538 10.6162ZM155.797 15.7842C155.542 16.5928 154.743 17.1377 153.661 17.1377C152.141 17.1377 151.174 16.0742 151.174 14.4658V14.3516H157.704V13.7012C157.704 10.8975 156.105 9.08691 153.538 9.08691C150.928 9.08691 149.258 11.0205 149.258 13.9209C149.258 16.8389 150.902 18.6758 153.618 18.6758C155.736 18.6758 157.335 17.4717 157.599 15.7842H155.797Z"
+              fill="#1B1F2D"
             />
-        </svg>
+          </svg>
         </a>
         <button
-        class="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
         >
-        <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
         </button>
         <div
-        class="collapse navbar-collapse justify-content-center align-items-center"
-        id="navbarSupportedContent"
+          class="collapse navbar-collapse justify-content-center align-items-center"
+          id="navbarSupportedContent"
         >
-        <ul class="navbar-nav ms-auto align-items-center">
+          <ul class="navbar-nav ms-auto align-items-center">
             <li class="nav-item">
-            <a
+              <a
                 class="nav-link active t-nav-item t-override-left-m-0"
                 aria-current="page"
                 href="#"
                 >Home</a
-            >
+              >
             </li>
             <li class="nav-item">
-            <a class="nav-link t-nav-item" aria-current="page" href="#"
+              <a class="nav-link t-nav-item" aria-current="page" href="#"
                 >Discover</a
-            >
+              >
             </li>
             <li class="nav-item">
-            <a class="nav-link t-nav-item" aria-current="page" href="#"
+              <a class="nav-link t-nav-item" aria-current="page" href="#"
                 >Activities</a
-            >
+              >
             </li>
             <li class="nav-item">
-            <a class="nav-link t-nav-item" aria-current="page" href="#"
+              <a class="nav-link t-nav-item" aria-current="page" href="#"
                 >About</a
-            >
+              >
             </li>
             <li class="nav-item">
-            <a class="nav-link t-nav-item" aria-current="page" href="#"
+              <a class="nav-link t-nav-item" aria-current="page" href="#"
                 >Contact</a
-            >
+              >
             </li>
-        </ul>
-        <div
+          </ul>
+          <div
             class="d-inline-flex ms-lg-auto gap-2 justify-content-center t-nav-buttons-ms-override"
-        >
+          >
             <a href="register.html">
-            <button type="button" class="t-nav-button-primary">
+              <button type="button" class="t-nav-button-primary">
                 Register
-            </button>
+              </button>
             </a>
             <a href="signin.html">
-            <button type="button" class="t-nav-button-secondary">
+              <button type="button" class="t-nav-button-secondary">
                 Sign In
-            </button></a
+              </button></a
             >
+          </div>
         </div>
-        </div>
-    </div>
+      </div>
     </nav>
     <!-- NAVBAR END -->
-    
+
     <!-- Image SECTION START -->
     <div class="container-fluid t-main-container-padding">
-        <div class="row gx-3">
-            <div class="col-6 p-image-container">
-                <img class="p-image" src="images/product/1.png"></img>
-            </div>
-            <div class="col-6 p-image-container">
-                <div class="row h-100">
-                    <div class="col-12 h-50 pb-3">
-                        <img class="p-image" src="images/product/1.png"></img>
-                    </div>
-                    <div class="col-12 h-50">
-                        <img class="p-image" src="images/product/1.png"></img>
-                    </div>
-                </div>
-            </div>
+      <div class="row gx-3">
+        <div class="col-8 p-image-container">
+          <img class="p-image" src="images/product/1.png" />
         </div>
+        <div class="col-4 p-image-container">
+          <div class="row h-100">
+            <div class="col-12 h-50 pb-3">
+              <img class="p-image" src="images/product/2.png" />
+            </div>
+            <div class="col-12 h-50">
+              <img class="p-image" src="images/product/3.png" />
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <!-- Image SECTION END -->
 
-
-    
     <!-- GROUPED BUTTON START -->
     <div class="container-fluid t-main-container-padding p-mt-24">
-        <div class="d-flex flex-row gap-3">
-            <div class="p-group-button active">Overview</div>
-            <div class="p-group-button">Rooms</div>
-            <div class="p-group-button">Guest Reviews</div>
-        </div>        
+      <div class="d-flex flex-row gap-3">
+        <div class="p-group-button active">Overview</div>
+        <div class="p-group-button">Rooms</div>
+        <div class="p-group-button">Guest Reviews</div>
+      </div>
     </div>
-    <!-- GROUPED BUTTON START -->
+    <!-- GROUPED BUTTON END -->
 
-    <!-- PRODUCT OVERVIEW START -->
-    <div class="container-fluid t-main-container-padding p-bg p-p-40">
+    <div class="container-fluid t-main-container-padding p-bg">
+      <!-- PRODUCT OVERVIEW START -->
+      <div class="container-fluid p-bg p-p-40">
         <div class="row">
-            <div class="col-8">
-                <div class="p-product-heading">Lakeside Motel Warefront</div>
-                <div class="d-flex align-items-end gap-3 p-mt-12">
-                    <span>
-                        <svg width="82" height="20" viewBox="0 0 82 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <g clip-path="url(#clip0_4_1831)">
-                            <path d="M10.0002 14.1666L5.10186 17.1583L6.43353 11.5749L2.0752 7.84159L7.79603 7.38325L10.0002 2.08325L12.2044 7.38325L17.926 7.84159L13.5669 11.5749L14.8985 17.1583L10.0002 14.1666Z" fill="#F2994A" />
-                          </g>
-                          <g clip-path="url(#clip1_4_1831)">
-                            <path d="M28.0002 14.1666L23.1019 17.1583L24.4335 11.5749L20.0752 7.84159L25.796 7.38325L28.0002 2.08325L30.2044 7.38325L35.926 7.84159L31.5669 11.5749L32.8985 17.1583L28.0002 14.1666Z" fill="#F2994A" />
-                          </g>
-                          <g clip-path="url(#clip2_4_1831)">
-                            <path d="M46.0002 14.1666L41.1019 17.1583L42.4335 11.5749L38.0752 7.84159L43.796 7.38325L46.0002 2.08325L48.2044 7.38325L53.926 7.84159L49.5669 11.5749L50.8985 17.1583L46.0002 14.1666Z" fill="#F2994A" />
-                          </g>
-                          <g clip-path="url(#clip3_4_1831)">
-                            <path d="M64.0002 14.1666L59.1019 17.1583L60.4335 11.5749L56.0752 7.84159L61.796 7.38325L64.0002 2.08325L66.2044 7.38325L71.926 7.84159L67.5669 11.5749L68.8985 17.1583L64.0002 14.1666Z" fill="#F2994A" />
-                          </g>
-                          <g clip-path="url(#clip4_4_1831)">
-                            <path d="M82.0002 14.1666L77.1019 17.1583L78.4335 11.5749L74.0752 7.84159L79.796 7.38325L82.0002 2.08325L84.2044 7.38325L89.926 7.84159L85.5669 11.5749L86.8985 17.1583L82.0002 14.1666Z" fill="#F2994A" />
-                          </g>
-                          <defs>
-                            <clipPath id="clip0_4_1831">
-                              <rect width="20" height="20" fill="white" />
-                            </clipPath>
-                            <clipPath id="clip1_4_1831">
-                              <rect width="20" height="20" fill="white" transform="translate(18)" />
-                            </clipPath>
-                            <clipPath id="clip2_4_1831">
-                              <rect width="20" height="20" fill="white" transform="translate(36)" />
-                            </clipPath>
-                            <clipPath id="clip3_4_1831">
-                              <rect width="20" height="20" fill="white" transform="translate(54)" />
-                            </clipPath>
-                            <clipPath id="clip4_4_1831">
-                              <rect width="10" height="20" fill="white" transform="translate(72)" />
-                            </clipPath>
-                          </defs>
+          <div class="col-8">
+            <div class="p-product-heading">Lakeside Motel Warefront</div>
+            <div class="d-flex align-items-end gap-3 p-mt-12">
+              <span>
+                <svg
+                  width="82"
+                  height="20"
+                  viewBox="0 0 82 20"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g clip-path="url(#clip0_4_1831)">
+                    <path
+                      d="M10.0002 14.1666L5.10186 17.1583L6.43353 11.5749L2.0752 7.84159L7.79603 7.38325L10.0002 2.08325L12.2044 7.38325L17.926 7.84159L13.5669 11.5749L14.8985 17.1583L10.0002 14.1666Z"
+                      fill="#F2994A"
+                    />
+                  </g>
+                  <g clip-path="url(#clip1_4_1831)">
+                    <path
+                      d="M28.0002 14.1666L23.1019 17.1583L24.4335 11.5749L20.0752 7.84159L25.796 7.38325L28.0002 2.08325L30.2044 7.38325L35.926 7.84159L31.5669 11.5749L32.8985 17.1583L28.0002 14.1666Z"
+                      fill="#F2994A"
+                    />
+                  </g>
+                  <g clip-path="url(#clip2_4_1831)">
+                    <path
+                      d="M46.0002 14.1666L41.1019 17.1583L42.4335 11.5749L38.0752 7.84159L43.796 7.38325L46.0002 2.08325L48.2044 7.38325L53.926 7.84159L49.5669 11.5749L50.8985 17.1583L46.0002 14.1666Z"
+                      fill="#F2994A"
+                    />
+                  </g>
+                  <g clip-path="url(#clip3_4_1831)">
+                    <path
+                      d="M64.0002 14.1666L59.1019 17.1583L60.4335 11.5749L56.0752 7.84159L61.796 7.38325L64.0002 2.08325L66.2044 7.38325L71.926 7.84159L67.5669 11.5749L68.8985 17.1583L64.0002 14.1666Z"
+                      fill="#F2994A"
+                    />
+                  </g>
+                  <g clip-path="url(#clip4_4_1831)">
+                    <path
+                      d="M82.0002 14.1666L77.1019 17.1583L78.4335 11.5749L74.0752 7.84159L79.796 7.38325L82.0002 2.08325L84.2044 7.38325L89.926 7.84159L85.5669 11.5749L86.8985 17.1583L82.0002 14.1666Z"
+                      fill="#F2994A"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_4_1831">
+                      <rect width="20" height="20" fill="white" />
+                    </clipPath>
+                    <clipPath id="clip1_4_1831">
+                      <rect
+                        width="20"
+                        height="20"
+                        fill="white"
+                        transform="translate(18)"
+                      />
+                    </clipPath>
+                    <clipPath id="clip2_4_1831">
+                      <rect
+                        width="20"
+                        height="20"
+                        fill="white"
+                        transform="translate(36)"
+                      />
+                    </clipPath>
+                    <clipPath id="clip3_4_1831">
+                      <rect
+                        width="20"
+                        height="20"
+                        fill="white"
+                        transform="translate(54)"
+                      />
+                    </clipPath>
+                    <clipPath id="clip4_4_1831">
+                      <rect
+                        width="10"
+                        height="20"
+                        fill="white"
+                        transform="translate(72)"
+                      />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </span>
+              <p class="r-search-card-review-text p-0 m-0">
+                4.5 (1200 Reviews)
+              </p>
+            </div>
+            <div class="d-flex align-items-end gap-3 p-mt-12">
+              <span>
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 20 20"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M9.9999 11.1917C10.3413 11.1917 10.6794 11.1244 10.9949 10.9938C11.3103 10.8631 11.5969 10.6716 11.8384 10.4302C12.0798 10.1887 12.2713 9.90212 12.402 9.58668C12.5327 9.27123 12.5999 8.93314 12.5999 8.5917C12.5999 8.25026 12.5327 7.91217 12.402 7.59672C12.2713 7.28128 12.0798 6.99465 11.8384 6.75322C11.5969 6.51179 11.3103 6.32027 10.9949 6.18961C10.6794 6.05895 10.3413 5.9917 9.9999 5.9917C9.31034 5.9917 8.64902 6.26563 8.16142 6.75322C7.67383 7.24082 7.3999 7.90214 7.3999 8.5917C7.3999 9.28126 7.67383 9.94258 8.16142 10.4302C8.64902 10.9178 9.31034 11.1917 9.9999 11.1917V11.1917Z"
+                    stroke="#2F80ED"
+                    stroke-width="1.5"
+                  />
+                  <path
+                    d="M3.01675 7.07484C4.65842 -0.141828 15.3501 -0.133494 16.9834 7.08317C17.9417 11.3165 15.3084 14.8998 13.0001 17.1165C12.1935 17.8945 11.1165 18.3292 9.99592 18.3292C8.87529 18.3292 7.79835 17.8945 6.99175 17.1165C4.69175 14.8998 2.05842 11.3082 3.01675 7.07484V7.07484Z"
+                    stroke="#2F80ED"
+                    stroke-width="1.5"
+                  />
+                </svg>
+              </span>
+              <p class="r-search-card-review-text p-0 m-0">
+                Lorem ipsum road, Tantruim-2322, Melbourne, Australia
+              </p>
+            </div>
+
+            <!-- OVERVIEW PART START -->
+            <div
+              class="container-fluid p-1 ps-0 pe-0 p-mt-32 p-overview-container"
+            >
+              <div class="p-mt-24"></div>
+              <div class="p-overview-heading plr-30-40">Overview</div>
+              <div class="p-overview-text mt-3 plr-30-40">
+                Featuring free WiFi throughout the property, Lakeside Motel
+                Waterfront offers accommodations in Lakes Entrance, 19 mi from
+                Bairnsdale. Free private parking is available on site. <br />
+                <br />
+
+                Each room at this motel is air conditioned and comes with a
+                flat-screen TV. You will find a kettle, toaster and a microwave
+                in the room. Each room is fitted with a private bathroom. Guests
+                have access to barbecue facilities and a lovely large lawn area.
+                Metung is 6.8 mi from Lakeside Motel Waterfront, while
+                Paynesville is 14 mi from the property. <br /><br />
+
+                Couples in particular like the location – they rated it 9.2 for
+                a two-person trip.
+              </div>
+
+              <div class="p-hborder r-mt-40"></div>
+              <div class="p-overview-heading r-mt-28 plr-30-40">
+                Top facilities
+              </div>
+              <div class="p-items plr-30-40 p-mt-24">
+                <div class="row">
+                  <div class="col-5">
+                    <!-- ITEM 1 -->
+                    <div class="d-flex flex-row gap-2">
+                      <span>
+                        <svg
+                          width="22"
+                          height="22"
+                          viewBox="0 0 22 22"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M9.23051 2.58519L2.87801 7.67269C2.16301 8.24102 1.70467 9.44185 1.86051 10.3402L3.07967 17.6369C3.29967 18.9385 4.54634 19.9927 5.86634 19.9927H16.133C17.4438 19.9927 18.6997 18.9294 18.9197 17.6369L20.1388 10.3402C20.2855 9.44185 19.8272 8.24102 19.1213 7.67269L12.7688 2.59435C11.788 1.80602 10.2022 1.80602 9.23051 2.58519V2.58519Z"
+                            stroke="#2F80ED"
+                            stroke-width="1.5"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                          <path
+                            d="M9.05664 13.182C10.2208 12.0728 11.7791 12.0728 12.9433 13.182"
+                            stroke="#2F80ED"
+                            stroke-width="1.5"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                          <path
+                            d="M14.886 11.2387C14.4137 10.7746 13.8687 10.3907 13.2727 10.1021C12.5625 9.75822 11.7838 9.57959 10.9948 9.57959C10.2058 9.57959 9.42699 9.75822 8.71685 10.1021C8.14852 10.3771 7.60768 10.7529 7.10352 11.2387"
+                            stroke="#2F80ED"
+                            stroke-width="1.5"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                          <path
+                            d="M10.9951 15.5835H11.0035"
+                            stroke="#2F80ED"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
                         </svg>
                       </span>
-                      <p class="r-search-card-review-text p-0 m-0">
-                        4.5 (1200 Reviews)
-                      </p>
-                </div>
-                <div class="d-flex align-items-end gap-3 p-mt-12">
-                    <span>
-                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M9.9999 11.1917C10.3413 11.1917 10.6794 11.1244 10.9949 10.9938C11.3103 10.8631 11.5969 10.6716 11.8384 10.4302C12.0798 10.1887 12.2713 9.90212 12.402 9.58668C12.5327 9.27123 12.5999 8.93314 12.5999 8.5917C12.5999 8.25026 12.5327 7.91217 12.402 7.59672C12.2713 7.28128 12.0798 6.99465 11.8384 6.75322C11.5969 6.51179 11.3103 6.32027 10.9949 6.18961C10.6794 6.05895 10.3413 5.9917 9.9999 5.9917C9.31034 5.9917 8.64902 6.26563 8.16142 6.75322C7.67383 7.24082 7.3999 7.90214 7.3999 8.5917C7.3999 9.28126 7.67383 9.94258 8.16142 10.4302C8.64902 10.9178 9.31034 11.1917 9.9999 11.1917V11.1917Z" stroke="#2F80ED" stroke-width="1.5"/>
-                            <path d="M3.01675 7.07484C4.65842 -0.141828 15.3501 -0.133494 16.9834 7.08317C17.9417 11.3165 15.3084 14.8998 13.0001 17.1165C12.1935 17.8945 11.1165 18.3292 9.99592 18.3292C8.87529 18.3292 7.79835 17.8945 6.99175 17.1165C4.69175 14.8998 2.05842 11.3082 3.01675 7.07484V7.07484Z" stroke="#2F80ED" stroke-width="1.5"/>
-                        </svg>
-                    </span>
-                      <p class="r-search-card-review-text p-0 m-0">
-                        Lorem ipsum road, Tantruim-2322, Melbourne, Australia
-                    </p>
-                </div> 
-            
-            <!-- OVERVIEW PART START -->
-            <div class="container-fluid p-1 ps-0 pe-0 p-mt-32 p-overview-container">
-                <div class="p-mt-24"></div>
-                <div class="p-overview-heading plr-30-40">
-                    Overview
-                </div>
-                <div class="p-overview-text mt-3 plr-30-40">
-                    Featuring free WiFi throughout the property, Lakeside Motel Waterfront offers accommodations in Lakes Entrance, 19 mi from Bairnsdale. Free private parking is available on site. <br> <br>
-
-Each room at this motel is air conditioned and comes with a flat-screen TV. You will find a kettle, toaster and a microwave in the room. Each room is fitted with a private bathroom. Guests have access to barbecue facilities and a lovely large lawn area. Metung is 6.8 mi from Lakeside Motel Waterfront, while Paynesville is 14 mi from the property. <br><br>
-
-Couples in particular like the location – they rated it 9.2 for a two-person trip.
-                </div>
-
-                <div class="p-hborder r-mt-40"></div>
-                <div class="p-overview-heading r-mt-28 plr-30-40">
-                    Top facilities
-                </div>
-                <div class="p-items plr-30-40 p-mt-24">
-                    <div class="row">
-                        <div class="col-5">
-                            <!-- ITEM 1 -->
-                            <div class="d-flex flex-row gap-2">
-                                <span>
-                                    <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M9.23051 2.58519L2.87801 7.67269C2.16301 8.24102 1.70467 9.44185 1.86051 10.3402L3.07967 17.6369C3.29967 18.9385 4.54634 19.9927 5.86634 19.9927H16.133C17.4438 19.9927 18.6997 18.9294 18.9197 17.6369L20.1388 10.3402C20.2855 9.44185 19.8272 8.24102 19.1213 7.67269L12.7688 2.59435C11.788 1.80602 10.2022 1.80602 9.23051 2.58519V2.58519Z" stroke="#2F80ED" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M9.05664 13.182C10.2208 12.0728 11.7791 12.0728 12.9433 13.182" stroke="#2F80ED" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M14.886 11.2387C14.4137 10.7746 13.8687 10.3907 13.2727 10.1021C12.5625 9.75822 11.7838 9.57959 10.9948 9.57959C10.2058 9.57959 9.42699 9.75822 8.71685 10.1021C8.14852 10.3771 7.60768 10.7529 7.10352 11.2387" stroke="#2F80ED" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M10.9951 15.5835H11.0035" stroke="#2F80ED" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                    </svg>
-                                </span>
-                                <div class="p-fac">
-                                    Free wifi
-                                </div>
-                            </div>
-                            <!-- ITEM 2 -->
-                            <div class="d-flex flex-row gap-2 mt-2">
-                                <span>
-                                    <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M1.8335 13.75H16.9585C18.7277 13.75 20.1668 15.1892 20.1668 16.9583C20.1668 18.7275 18.7277 20.1667 16.9585 20.1667C15.1893 20.1667 13.7502 18.7275 13.7502 16.9583V16.5" stroke="#2F80ED" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M1.8335 11.0002H16.9585C18.7185 11.0002 20.1668 9.561 20.1668 7.79183C20.1668 6.03183 18.7185 4.5835 16.9585 4.5835C16.1083 4.58591 15.2937 4.92471 14.6925 5.52587C14.0914 6.12702 13.7526 6.94167 13.7502 7.79183V8.25016" stroke="#2F80ED" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M1.8335 8.25003H8.53433C9.02203 8.25003 9.49877 8.10541 9.90427 7.83446C10.3098 7.56351 10.6258 7.1784 10.8125 6.72783C10.9991 6.27726 11.0479 5.78146 10.9528 5.30313C10.8576 4.82481 10.6228 4.38544 10.2779 4.04059C9.93308 3.69573 9.49371 3.46089 9.01539 3.36574C8.53706 3.2706 8.04127 3.31943 7.5907 3.50606C7.14012 3.69269 6.75501 4.00875 6.48406 4.41425C6.21311 4.81975 6.0685 5.2965 6.0685 5.78419V6.13253" stroke="#2F80ED" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                                    </svg>
-                                </span>
-                                <div class="p-fac">
-                                    Air Conditioning
-                                </div>
-                            </div>
-                            <!-- ITEM 3 -->
-                            <div class="d-flex flex-row gap-2 mt-2">
-                                <span>
-                                    <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M14.2173 2.59424H7.78234C5.49984 2.59424 4.99567 3.73091 4.70234 5.12424L3.6665 10.0834H18.3332L17.2973 5.12424C17.004 3.73091 16.4998 2.59424 14.2173 2.59424V2.59424Z" stroke="#2F80ED" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M20.1575 18.1685C20.2583 19.241 19.3967 20.1668 18.2967 20.1668H16.5733C15.5833 20.1668 15.4458 19.7452 15.2717 19.2227L15.0883 18.6727C14.8317 17.921 14.6667 17.4168 13.3467 17.4168H8.65334C7.33334 17.4168 7.14084 17.9852 6.91167 18.6727L6.72834 19.2227C6.55417 19.7452 6.41667 20.1668 5.42667 20.1668H3.70334C2.60334 20.1668 1.74167 19.241 1.8425 18.1685L2.35584 12.586C2.48417 11.211 2.75 10.0835 5.15167 10.0835H16.8483C19.25 10.0835 19.5158 11.211 19.6442 12.586L20.1575 18.1685Z" stroke="#2F80ED" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M3.66667 7.3335H2.75" stroke="#2F80ED" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M19.2502 7.3335H18.3335" stroke="#2F80ED" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M11 2.75V4.58333" stroke="#2F80ED" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M9.625 4.5835H12.375" stroke="#2F80ED" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M5.5 13.75H8.25" stroke="#2F80ED" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M13.75 13.75H16.5" stroke="#2F80ED" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                    </svg>
-                                </span>
-                                <div class="p-fac">
-                                    Parking available
-                                </div>
-                            </div>
-
-
-                        </div>
-                        <div class="col">
-                            <!-- ITEM 4 -->
-                            <div class="d-flex flex-row gap-2">
-                                <span>
-                                    <svg width="18" height="20" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M9.00016 16.4168C9.97262 16.4168 10.9053 16.0305 11.5929 15.3429C12.2805 14.6553 12.6668 13.7226 12.6668 12.7502C12.6668 11.7777 12.2805 10.8451 11.5929 10.1574C10.9053 9.4698 9.97262 9.0835 9.00016 9.0835C8.0277 9.0835 7.09507 9.4698 6.40744 10.1574C5.7198 10.8451 5.3335 11.7777 5.3335 12.7502C5.3335 13.7226 5.7198 14.6553 6.40744 15.3429C7.09507 16.0305 8.0277 16.4168 9.00016 16.4168V16.4168Z" stroke="#2F80ED" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M7.57031 12.7504L8.16615 13.3462C8.34031 13.5204 8.62448 13.5295 8.79865 13.3554L10.4303 11.8521" stroke="#2F80ED" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M6.25009 19.1668H11.7501C15.4351 19.1668 16.0951 17.691 16.2876 15.8943L16.9751 10.3943C17.2226 8.15766 16.5809 6.3335 12.6668 6.3335H5.33342C1.41925 6.3335 0.777585 8.15766 1.02509 10.3943L1.71259 15.8943C1.90509 17.691 2.56509 19.1668 6.25009 19.1668Z" stroke="#2F80ED" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M4.875 6.03108V5.14191C4.875 3.07941 6.53417 1.05357 8.59667 0.861075C9.16974 0.804771 9.74826 0.869076 10.295 1.04985C10.8417 1.23063 11.3445 1.52387 11.7711 1.9107C12.1976 2.29753 12.5385 2.76939 12.7717 3.2959C13.0048 3.82241 13.1252 4.39191 13.125 4.96774V6.23274" stroke="#2F80ED" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                                    </svg>
-                                </span>
-                                <div class="p-fac">
-                                    Business Services
-                                </div>
-                            </div>
-                            <!-- ITEM 5 -->
-                            <div class="d-flex flex-row gap-2 mt-2">
-                                <span>
-                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M9.97233 19.1668C15.0351 19.1668 19.139 15.0629 19.139 10.0002C19.139 4.93741 15.0351 0.833496 9.97233 0.833496C4.90958 0.833496 0.805664 4.93741 0.805664 10.0002C0.805664 15.0629 4.90958 19.1668 9.97233 19.1668V19.1668Z" stroke="#2F80ED" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M10 14.125C11.094 14.125 12.1432 13.6904 12.9168 12.9168C13.6904 12.1432 14.125 11.094 14.125 10C14.125 8.90598 13.6904 7.85677 12.9168 7.08318C12.1432 6.3096 11.094 5.875 10 5.875C8.90598 5.875 7.85677 6.3096 7.08318 7.08318C6.3096 7.85677 5.875 8.90598 5.875 10C5.875 11.094 6.3096 12.1432 7.08318 12.9168C7.85677 13.6904 8.90598 14.125 10 14.125V14.125Z" stroke="#2F80ED" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M3.49121 3.51953L6.73621 6.75536" stroke="#2F80ED" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M3.4917 16.4809L6.7367 13.2451" stroke="#2F80ED" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M16.4623 16.4809L13.2173 13.2451" stroke="#2F80ED" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <path d="M16.4623 3.51953L13.2173 6.75536" stroke="#2F80ED" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                    </svg>
-                                </span>
-                                <div class="p-fac">
-                                    Swimming pool
-                                </div>
-                            </div>
-                            <!-- ITEM 6 -->
-                            <div class="d-flex flex-row gap-2 mt-2">
-                                <span>
-                                    <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M6.85645 16.8208L9.69811 19.0208C10.0648 19.3874 10.8898 19.5708 11.4398 19.5708H14.9231C16.0231 19.5708 17.2148 18.7458 17.4898 17.6458L19.6898 10.9541C20.1481 9.67076 19.3231 8.57076 17.9481 8.57076H14.2814C13.7314 8.57076 13.2731 8.11243 13.3648 7.47076L13.8231 4.53743C14.0064 3.71243 13.4564 2.79576 12.6314 2.52076C11.8981 2.24576 10.9814 2.61243 10.6148 3.16243L6.85645 8.7541" stroke="#2F80ED" stroke-width="1.5" stroke-miterlimit="10"/>
-                                        <path d="M2.18164 16.8207V7.83737C2.18164 6.55404 2.73164 6.0957 4.01497 6.0957H4.93164C6.21497 6.0957 6.76497 6.55404 6.76497 7.83737V16.8207C6.76497 18.104 6.21497 18.5624 4.93164 18.5624H4.01497C2.73164 18.5624 2.18164 18.104 2.18164 16.8207Z" stroke="#2F80ED" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                    </svg>
-                                </span>
-                                <div class="p-fac">
-                                    Top rated in area
-                                </div>
-                            </div>
-                        </div>
+                      <div class="p-fac">Free wifi</div>
                     </div>
+                    <!-- ITEM 2 -->
+                    <div class="d-flex flex-row gap-2 mt-2">
+                      <span>
+                        <svg
+                          width="22"
+                          height="22"
+                          viewBox="0 0 22 22"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M1.8335 13.75H16.9585C18.7277 13.75 20.1668 15.1892 20.1668 16.9583C20.1668 18.7275 18.7277 20.1667 16.9585 20.1667C15.1893 20.1667 13.7502 18.7275 13.7502 16.9583V16.5"
+                            stroke="#2F80ED"
+                            stroke-width="1.5"
+                            stroke-miterlimit="10"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                          <path
+                            d="M1.8335 11.0002H16.9585C18.7185 11.0002 20.1668 9.561 20.1668 7.79183C20.1668 6.03183 18.7185 4.5835 16.9585 4.5835C16.1083 4.58591 15.2937 4.92471 14.6925 5.52587C14.0914 6.12702 13.7526 6.94167 13.7502 7.79183V8.25016"
+                            stroke="#2F80ED"
+                            stroke-width="1.5"
+                            stroke-miterlimit="10"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                          <path
+                            d="M1.8335 8.25003H8.53433C9.02203 8.25003 9.49877 8.10541 9.90427 7.83446C10.3098 7.56351 10.6258 7.1784 10.8125 6.72783C10.9991 6.27726 11.0479 5.78146 10.9528 5.30313C10.8576 4.82481 10.6228 4.38544 10.2779 4.04059C9.93308 3.69573 9.49371 3.46089 9.01539 3.36574C8.53706 3.2706 8.04127 3.31943 7.5907 3.50606C7.14012 3.69269 6.75501 4.00875 6.48406 4.41425C6.21311 4.81975 6.0685 5.2965 6.0685 5.78419V6.13253"
+                            stroke="#2F80ED"
+                            stroke-width="1.5"
+                            stroke-miterlimit="10"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                        </svg>
+                      </span>
+                      <div class="p-fac">Air Conditioning</div>
+                    </div>
+                    <!-- ITEM 3 -->
+                    <div class="d-flex flex-row gap-2 mt-2">
+                      <span>
+                        <svg
+                          width="22"
+                          height="22"
+                          viewBox="0 0 22 22"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M14.2173 2.59424H7.78234C5.49984 2.59424 4.99567 3.73091 4.70234 5.12424L3.6665 10.0834H18.3332L17.2973 5.12424C17.004 3.73091 16.4998 2.59424 14.2173 2.59424V2.59424Z"
+                            stroke="#2F80ED"
+                            stroke-width="1.5"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                          <path
+                            d="M20.1575 18.1685C20.2583 19.241 19.3967 20.1668 18.2967 20.1668H16.5733C15.5833 20.1668 15.4458 19.7452 15.2717 19.2227L15.0883 18.6727C14.8317 17.921 14.6667 17.4168 13.3467 17.4168H8.65334C7.33334 17.4168 7.14084 17.9852 6.91167 18.6727L6.72834 19.2227C6.55417 19.7452 6.41667 20.1668 5.42667 20.1668H3.70334C2.60334 20.1668 1.74167 19.241 1.8425 18.1685L2.35584 12.586C2.48417 11.211 2.75 10.0835 5.15167 10.0835H16.8483C19.25 10.0835 19.5158 11.211 19.6442 12.586L20.1575 18.1685Z"
+                            stroke="#2F80ED"
+                            stroke-width="1.5"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                          <path
+                            d="M3.66667 7.3335H2.75"
+                            stroke="#2F80ED"
+                            stroke-width="1.5"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                          <path
+                            d="M19.2502 7.3335H18.3335"
+                            stroke="#2F80ED"
+                            stroke-width="1.5"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                          <path
+                            d="M11 2.75V4.58333"
+                            stroke="#2F80ED"
+                            stroke-width="1.5"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                          <path
+                            d="M9.625 4.5835H12.375"
+                            stroke="#2F80ED"
+                            stroke-width="1.5"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                          <path
+                            d="M5.5 13.75H8.25"
+                            stroke="#2F80ED"
+                            stroke-width="1.5"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                          <path
+                            d="M13.75 13.75H16.5"
+                            stroke="#2F80ED"
+                            stroke-width="1.5"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                        </svg>
+                      </span>
+                      <div class="p-fac">Parking available</div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <!-- ITEM 4 -->
+                    <div class="d-flex flex-row gap-2">
+                      <span>
+                        <svg
+                          width="18"
+                          height="20"
+                          viewBox="0 0 18 20"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M9.00016 16.4168C9.97262 16.4168 10.9053 16.0305 11.5929 15.3429C12.2805 14.6553 12.6668 13.7226 12.6668 12.7502C12.6668 11.7777 12.2805 10.8451 11.5929 10.1574C10.9053 9.4698 9.97262 9.0835 9.00016 9.0835C8.0277 9.0835 7.09507 9.4698 6.40744 10.1574C5.7198 10.8451 5.3335 11.7777 5.3335 12.7502C5.3335 13.7226 5.7198 14.6553 6.40744 15.3429C7.09507 16.0305 8.0277 16.4168 9.00016 16.4168V16.4168Z"
+                            stroke="#2F80ED"
+                            stroke-width="1.5"
+                            stroke-miterlimit="10"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                          <path
+                            d="M7.57031 12.7504L8.16615 13.3462C8.34031 13.5204 8.62448 13.5295 8.79865 13.3554L10.4303 11.8521"
+                            stroke="#2F80ED"
+                            stroke-width="1.5"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                          <path
+                            d="M6.25009 19.1668H11.7501C15.4351 19.1668 16.0951 17.691 16.2876 15.8943L16.9751 10.3943C17.2226 8.15766 16.5809 6.3335 12.6668 6.3335H5.33342C1.41925 6.3335 0.777585 8.15766 1.02509 10.3943L1.71259 15.8943C1.90509 17.691 2.56509 19.1668 6.25009 19.1668Z"
+                            stroke="#2F80ED"
+                            stroke-width="1.5"
+                            stroke-miterlimit="10"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                          <path
+                            d="M4.875 6.03108V5.14191C4.875 3.07941 6.53417 1.05357 8.59667 0.861075C9.16974 0.804771 9.74826 0.869076 10.295 1.04985C10.8417 1.23063 11.3445 1.52387 11.7711 1.9107C12.1976 2.29753 12.5385 2.76939 12.7717 3.2959C13.0048 3.82241 13.1252 4.39191 13.125 4.96774V6.23274"
+                            stroke="#2F80ED"
+                            stroke-width="1.5"
+                            stroke-miterlimit="10"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                        </svg>
+                      </span>
+                      <div class="p-fac">Business Services</div>
+                    </div>
+                    <!-- ITEM 5 -->
+                    <div class="d-flex flex-row gap-2 mt-2">
+                      <span>
+                        <svg
+                          width="20"
+                          height="20"
+                          viewBox="0 0 20 20"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M9.97233 19.1668C15.0351 19.1668 19.139 15.0629 19.139 10.0002C19.139 4.93741 15.0351 0.833496 9.97233 0.833496C4.90958 0.833496 0.805664 4.93741 0.805664 10.0002C0.805664 15.0629 4.90958 19.1668 9.97233 19.1668V19.1668Z"
+                            stroke="#2F80ED"
+                            stroke-width="1.5"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                          <path
+                            d="M10 14.125C11.094 14.125 12.1432 13.6904 12.9168 12.9168C13.6904 12.1432 14.125 11.094 14.125 10C14.125 8.90598 13.6904 7.85677 12.9168 7.08318C12.1432 6.3096 11.094 5.875 10 5.875C8.90598 5.875 7.85677 6.3096 7.08318 7.08318C6.3096 7.85677 5.875 8.90598 5.875 10C5.875 11.094 6.3096 12.1432 7.08318 12.9168C7.85677 13.6904 8.90598 14.125 10 14.125V14.125Z"
+                            stroke="#2F80ED"
+                            stroke-width="1.5"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                          <path
+                            d="M3.49121 3.51953L6.73621 6.75536"
+                            stroke="#2F80ED"
+                            stroke-width="1.5"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                          <path
+                            d="M3.4917 16.4809L6.7367 13.2451"
+                            stroke="#2F80ED"
+                            stroke-width="1.5"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                          <path
+                            d="M16.4623 16.4809L13.2173 13.2451"
+                            stroke="#2F80ED"
+                            stroke-width="1.5"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                          <path
+                            d="M16.4623 3.51953L13.2173 6.75536"
+                            stroke="#2F80ED"
+                            stroke-width="1.5"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                        </svg>
+                      </span>
+                      <div class="p-fac">Swimming pool</div>
+                    </div>
+                    <!-- ITEM 6 -->
+                    <div class="d-flex flex-row gap-2 mt-2">
+                      <span>
+                        <svg
+                          width="22"
+                          height="22"
+                          viewBox="0 0 22 22"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M6.85645 16.8208L9.69811 19.0208C10.0648 19.3874 10.8898 19.5708 11.4398 19.5708H14.9231C16.0231 19.5708 17.2148 18.7458 17.4898 17.6458L19.6898 10.9541C20.1481 9.67076 19.3231 8.57076 17.9481 8.57076H14.2814C13.7314 8.57076 13.2731 8.11243 13.3648 7.47076L13.8231 4.53743C14.0064 3.71243 13.4564 2.79576 12.6314 2.52076C11.8981 2.24576 10.9814 2.61243 10.6148 3.16243L6.85645 8.7541"
+                            stroke="#2F80ED"
+                            stroke-width="1.5"
+                            stroke-miterlimit="10"
+                          />
+                          <path
+                            d="M2.18164 16.8207V7.83737C2.18164 6.55404 2.73164 6.0957 4.01497 6.0957H4.93164C6.21497 6.0957 6.76497 6.55404 6.76497 7.83737V16.8207C6.76497 18.104 6.21497 18.5624 4.93164 18.5624H4.01497C2.73164 18.5624 2.18164 18.104 2.18164 16.8207Z"
+                            stroke="#2F80ED"
+                            stroke-width="1.5"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                        </svg>
+                      </span>
+                      <div class="p-fac">Top rated in area</div>
+                    </div>
+                  </div>
                 </div>
-                <div class="r-mt-40"></div>
+              </div>
+              <div class="r-mt-40"></div>
             </div>
             <!-- OVERVIEW PART END -->
+          </div>
+          <div class="col-4">
+            <iframe
+              class="p-map p-right-column-width"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d863.1887980875159!2d90.36929909996726!3d23.747722993605425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b997a0bb3a0f%3A0x7572c6a19bc50ddf!2sBangladesh%20Software%20Solution!5e1!3m2!1sen!2sbd!4v1730661274969!5m2!1sen!2sbd"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
 
-            </div>
-            <div class="col-4">
-                <iframe class="p-map p-right-column-width" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d863.1887980875159!2d90.36929909996726!3d23.747722993605425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b997a0bb3a0f%3A0x7572c6a19bc50ddf!2sBangladesh%20Software%20Solution!5e1!3m2!1sen!2sbd!4v1730661274969!5m2!1sen!2sbd" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-                <div class="p-overview-heading p-mt-32">Explore the area</div>
-                <div class="container-fluid p-0">
-                    <!-- Explore item 1 -->
-                    <div class="d-flex flex-row justify-content-between p-right-column-width p-mt-24">
-                        <div class="d-flex flex-row gap-2 ">
-                            <span>
-                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M2.84484 11.4817L1.6665 12.66L5.79067 14.4275L7.559 18.5525L8.73734 17.3742L8.14817 14.4275L10.909 11.6667L13.9173 18.0867L15.0332 16.9708L14.0415 8.53499L16.3982 6.17749C16.5574 6.02375 16.6843 5.83984 16.7717 5.6365C16.859 5.43316 16.905 5.21446 16.9069 4.99316C16.9088 4.77186 16.8667 4.5524 16.7829 4.34757C16.6991 4.14274 16.5753 3.95666 16.4188 3.80017C16.2623 3.64368 16.0763 3.51992 15.8714 3.43612C15.6666 3.35232 15.4471 3.31015 15.2258 3.31207C15.0045 3.314 14.7858 3.35998 14.5825 3.44732C14.3792 3.53467 14.1952 3.66164 14.0415 3.82083L11.6223 6.23999L3.1865 5.24749L2.13234 6.30249L8.50234 9.36082L5.7915 12.0717L2.84484 11.4817Z" fill="#4F4F4F"/>
-                                </svg>
-                            </span>
-                            <div class="p-fac">
-                                Hotel Penselvenyia
-                            </div>
-                        </div>
-                        <div class="p-fac">
-                            2 min drive
-                        </div>
-                    </div>
-                    <!-- Explore item 2 -->
-                    <div class="d-flex flex-row justify-content-between p-right-column-width mt-2">
-                        <div class="d-flex flex-row gap-2 ">
-                            <span>
-                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M9.99974 1.6665C6.32391 1.6665 3.33308 4.65734 3.33308 8.329C3.30891 13.6998 9.74641 18.1532 9.99974 18.3332C9.99974 18.3332 16.6906 13.6998 16.6664 8.33317C16.6664 4.65734 13.6756 1.6665 9.99974 1.6665ZM9.99974 11.6665C8.15808 11.6665 6.66641 10.1748 6.66641 8.33317C6.66641 6.4915 8.15808 4.99984 9.99974 4.99984C11.8414 4.99984 13.3331 6.4915 13.3331 8.33317C13.3331 10.1748 11.8414 11.6665 9.99974 11.6665Z" fill="#4F4F4F"/>
-                                </svg>
-                            </span>
-                            <div class="p-fac">
-                                Travis Bakery store house
-                            </div>
-                        </div>
-                        <div class="p-fac">
-                            10 min drive
-                        </div>
-                    </div>
-                    <!-- Explore item 2 -->
-                    <div class="d-flex flex-row justify-content-between p-right-column-width mt-2">
-                        <div class="d-flex flex-row gap-2 ">
-                            <span>
-                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M9.99974 1.6665C6.32391 1.6665 3.33308 4.65734 3.33308 8.329C3.30891 13.6998 9.74641 18.1532 9.99974 18.3332C9.99974 18.3332 16.6906 13.6998 16.6664 8.33317C16.6664 4.65734 13.6756 1.6665 9.99974 1.6665ZM9.99974 11.6665C8.15808 11.6665 6.66641 10.1748 6.66641 8.33317C6.66641 6.4915 8.15808 4.99984 9.99974 4.99984C11.8414 4.99984 13.3331 6.4915 13.3331 8.33317C13.3331 10.1748 11.8414 11.6665 9.99974 11.6665Z" fill="#4F4F4F"/>
-                                </svg>
-                            </span>
-                            <div class="p-fac">
-                                Olivia Johnson Garden
-                            </div>
-                        </div>
-                        <div class="p-fac">
-                            13 min drive
-                        </div>
-                    </div>
-                    <!-- Explore item 2 -->
-                    <div class="d-flex flex-row justify-content-between p-right-column-width mt-2">
-                        <div class="d-flex flex-row gap-2 ">
-                            <span>
-                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M9.99974 1.6665C6.32391 1.6665 3.33308 4.65734 3.33308 8.329C3.30891 13.6998 9.74641 18.1532 9.99974 18.3332C9.99974 18.3332 16.6906 13.6998 16.6664 8.33317C16.6664 4.65734 13.6756 1.6665 9.99974 1.6665ZM9.99974 11.6665C8.15808 11.6665 6.66641 10.1748 6.66641 8.33317C6.66641 6.4915 8.15808 4.99984 9.99974 4.99984C11.8414 4.99984 13.3331 6.4915 13.3331 8.33317C13.3331 10.1748 11.8414 11.6665 9.99974 11.6665Z" fill="#4F4F4F"/>
-                                </svg>
-                            </span>
-                            <div class="p-fac">
-                                Norman Opera Circus
-                            </div>
-                        </div>
-                        <div class="p-fac">
-                            32 min drive
-                        </div>
-                    </div>
-                    <!-- Explore item 2 -->
-                    <div class="d-flex flex-row justify-content-between p-right-column-width mt-2">
-                        <div class="d-flex flex-row gap-2 ">
-                            <span>
-                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M9.99974 1.6665C6.32391 1.6665 3.33308 4.65734 3.33308 8.329C3.30891 13.6998 9.74641 18.1532 9.99974 18.3332C9.99974 18.3332 16.6906 13.6998 16.6664 8.33317C16.6664 4.65734 13.6756 1.6665 9.99974 1.6665ZM9.99974 11.6665C8.15808 11.6665 6.66641 10.1748 6.66641 8.33317C6.66641 6.4915 8.15808 4.99984 9.99974 4.99984C11.8414 4.99984 13.3331 6.4915 13.3331 8.33317C13.3331 10.1748 11.8414 11.6665 9.99974 11.6665Z" fill="#4F4F4F"/>
-                                </svg>
-                            </span>
-                            <div class="p-fac">
-                                Rockdeset hotel
-                            </div>
-                        </div>
-                        <div class="p-fac">
-                            23 min drive
-                        </div>
-                    </div>
-
+            <div class="p-overview-heading p-mt-32">Explore the area</div>
+            <div class="container-fluid p-0">
+              <!-- Explore item 1 -->
+              <div
+                class="d-flex flex-row justify-content-between p-right-column-width p-mt-24"
+              >
+                <div class="d-flex flex-row gap-2">
+                  <span>
+                    <svg
+                      width="20"
+                      height="20"
+                      viewBox="0 0 20 20"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M2.84484 11.4817L1.6665 12.66L5.79067 14.4275L7.559 18.5525L8.73734 17.3742L8.14817 14.4275L10.909 11.6667L13.9173 18.0867L15.0332 16.9708L14.0415 8.53499L16.3982 6.17749C16.5574 6.02375 16.6843 5.83984 16.7717 5.6365C16.859 5.43316 16.905 5.21446 16.9069 4.99316C16.9088 4.77186 16.8667 4.5524 16.7829 4.34757C16.6991 4.14274 16.5753 3.95666 16.4188 3.80017C16.2623 3.64368 16.0763 3.51992 15.8714 3.43612C15.6666 3.35232 15.4471 3.31015 15.2258 3.31207C15.0045 3.314 14.7858 3.35998 14.5825 3.44732C14.3792 3.53467 14.1952 3.66164 14.0415 3.82083L11.6223 6.23999L3.1865 5.24749L2.13234 6.30249L8.50234 9.36082L5.7915 12.0717L2.84484 11.4817Z"
+                        fill="#4F4F4F"
+                      />
+                    </svg>
+                  </span>
+                  <div class="p-fac">Hotel Penselvenyia</div>
                 </div>
+                <div class="p-fac">2 min drive</div>
+              </div>
+              <!-- Explore item 2 -->
+              <div
+                class="d-flex flex-row justify-content-between p-right-column-width mt-2"
+              >
+                <div class="d-flex flex-row gap-2">
+                  <span>
+                    <svg
+                      width="20"
+                      height="20"
+                      viewBox="0 0 20 20"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M9.99974 1.6665C6.32391 1.6665 3.33308 4.65734 3.33308 8.329C3.30891 13.6998 9.74641 18.1532 9.99974 18.3332C9.99974 18.3332 16.6906 13.6998 16.6664 8.33317C16.6664 4.65734 13.6756 1.6665 9.99974 1.6665ZM9.99974 11.6665C8.15808 11.6665 6.66641 10.1748 6.66641 8.33317C6.66641 6.4915 8.15808 4.99984 9.99974 4.99984C11.8414 4.99984 13.3331 6.4915 13.3331 8.33317C13.3331 10.1748 11.8414 11.6665 9.99974 11.6665Z"
+                        fill="#4F4F4F"
+                      />
+                    </svg>
+                  </span>
+                  <div class="p-fac">Travis Bakery store house</div>
+                </div>
+                <div class="p-fac">10 min drive</div>
+              </div>
+              <!-- Explore item 2 -->
+              <div
+                class="d-flex flex-row justify-content-between p-right-column-width mt-2"
+              >
+                <div class="d-flex flex-row gap-2">
+                  <span>
+                    <svg
+                      width="20"
+                      height="20"
+                      viewBox="0 0 20 20"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M9.99974 1.6665C6.32391 1.6665 3.33308 4.65734 3.33308 8.329C3.30891 13.6998 9.74641 18.1532 9.99974 18.3332C9.99974 18.3332 16.6906 13.6998 16.6664 8.33317C16.6664 4.65734 13.6756 1.6665 9.99974 1.6665ZM9.99974 11.6665C8.15808 11.6665 6.66641 10.1748 6.66641 8.33317C6.66641 6.4915 8.15808 4.99984 9.99974 4.99984C11.8414 4.99984 13.3331 6.4915 13.3331 8.33317C13.3331 10.1748 11.8414 11.6665 9.99974 11.6665Z"
+                        fill="#4F4F4F"
+                      />
+                    </svg>
+                  </span>
+                  <div class="p-fac">Olivia Johnson Garden</div>
+                </div>
+                <div class="p-fac">13 min drive</div>
+              </div>
+              <!-- Explore item 2 -->
+              <div
+                class="d-flex flex-row justify-content-between p-right-column-width mt-2"
+              >
+                <div class="d-flex flex-row gap-2">
+                  <span>
+                    <svg
+                      width="20"
+                      height="20"
+                      viewBox="0 0 20 20"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M9.99974 1.6665C6.32391 1.6665 3.33308 4.65734 3.33308 8.329C3.30891 13.6998 9.74641 18.1532 9.99974 18.3332C9.99974 18.3332 16.6906 13.6998 16.6664 8.33317C16.6664 4.65734 13.6756 1.6665 9.99974 1.6665ZM9.99974 11.6665C8.15808 11.6665 6.66641 10.1748 6.66641 8.33317C6.66641 6.4915 8.15808 4.99984 9.99974 4.99984C11.8414 4.99984 13.3331 6.4915 13.3331 8.33317C13.3331 10.1748 11.8414 11.6665 9.99974 11.6665Z"
+                        fill="#4F4F4F"
+                      />
+                    </svg>
+                  </span>
+                  <div class="p-fac">Norman Opera Circus</div>
+                </div>
+                <div class="p-fac">32 min drive</div>
+              </div>
+              <!-- Explore item 2 -->
+              <div
+                class="d-flex flex-row justify-content-between p-right-column-width mt-2"
+              >
+                <div class="d-flex flex-row gap-2">
+                  <span>
+                    <svg
+                      width="20"
+                      height="20"
+                      viewBox="0 0 20 20"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M9.99974 1.6665C6.32391 1.6665 3.33308 4.65734 3.33308 8.329C3.30891 13.6998 9.74641 18.1532 9.99974 18.3332C9.99974 18.3332 16.6906 13.6998 16.6664 8.33317C16.6664 4.65734 13.6756 1.6665 9.99974 1.6665ZM9.99974 11.6665C8.15808 11.6665 6.66641 10.1748 6.66641 8.33317C6.66641 6.4915 8.15808 4.99984 9.99974 4.99984C11.8414 4.99984 13.3331 6.4915 13.3331 8.33317C13.3331 10.1748 11.8414 11.6665 9.99974 11.6665Z"
+                        fill="#4F4F4F"
+                      />
+                    </svg>
+                  </span>
+                  <div class="p-fac">Rockdeset hotel</div>
+                </div>
+                <div class="p-fac">23 min drive</div>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
+      <!-- PRODUCT OVERVIEW END -->
+
+      <!-- ROOM SECTION START -->
+      <div class="container-fluid p-bg p-p-40">
+        <div class="r-search-heading">Available rooms</div>
+        <!-- AVAILABILITY SEARCH SECTION START -->
+        <div class="d-flex p-2 rounded-2 bg-white p-mt-32">
+          <div
+            class="container-fluid d-flex flex-row align-self-center gap-2 align-content-center align-items-center ps-1 pe-1"
+            style="height: 43px"
+          >
+            <div class="input-group flex-fill t-input-group-item" style="">
+              <span class="input-group-text t-hero-input-group-text" id="">
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 20 20"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M6.6665 1.66675V4.16675"
+                    stroke="#828282"
+                    stroke-width="1.5"
+                    stroke-miterlimit="10"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M13.3335 1.66675V4.16675"
+                    stroke="#828282"
+                    stroke-width="1.5"
+                    stroke-miterlimit="10"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M2.9165 7.5752H17.0832"
+                    stroke="#828282"
+                    stroke-width="1.5"
+                    stroke-miterlimit="10"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M17.5 7.08341V14.1667C17.5 16.6667 16.25 18.3334 13.3333 18.3334H6.66667C3.75 18.3334 2.5 16.6667 2.5 14.1667V7.08341C2.5 4.58341 3.75 2.91675 6.66667 2.91675H13.3333C16.25 2.91675 17.5 4.58341 17.5 7.08341Z"
+                    stroke="#828282"
+                    stroke-width="1.5"
+                    stroke-miterlimit="10"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M13.0791 11.4167H13.0866"
+                    stroke="#828282"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M13.0791 13.9167H13.0866"
+                    stroke="#828282"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M9.99561 11.4167H10.0039"
+                    stroke="#828282"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M9.99561 13.9167H10.0039"
+                    stroke="#828282"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M6.91162 11.4167H6.91995"
+                    stroke="#828282"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M6.91162 13.9167H6.91995"
+                    stroke="#828282"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </span>
+              <input
+                type="text"
+                class="form-control t-hero-input-group-input"
+                placeholder="Mar 18, 2024"
+              />
+            </div>
+            <div class="input-group flex-fill t-input-group-item" style="">
+              <span class="input-group-text t-hero-input-group-text" id="">
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 20 20"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M6.6665 1.66675V4.16675"
+                    stroke="#828282"
+                    stroke-width="1.5"
+                    stroke-miterlimit="10"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M13.3335 1.66675V4.16675"
+                    stroke="#828282"
+                    stroke-width="1.5"
+                    stroke-miterlimit="10"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M2.9165 7.5752H17.0832"
+                    stroke="#828282"
+                    stroke-width="1.5"
+                    stroke-miterlimit="10"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M17.5 7.08341V14.1667C17.5 16.6667 16.25 18.3334 13.3333 18.3334H6.66667C3.75 18.3334 2.5 16.6667 2.5 14.1667V7.08341C2.5 4.58341 3.75 2.91675 6.66667 2.91675H13.3333C16.25 2.91675 17.5 4.58341 17.5 7.08341Z"
+                    stroke="#828282"
+                    stroke-width="1.5"
+                    stroke-miterlimit="10"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M13.0791 11.4167H13.0866"
+                    stroke="#828282"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M13.0791 13.9167H13.0866"
+                    stroke="#828282"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M9.99561 11.4167H10.0039"
+                    stroke="#828282"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M9.99561 13.9167H10.0039"
+                    stroke="#828282"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M6.91162 11.4167H6.91995"
+                    stroke="#828282"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M6.91162 13.9167H6.91995"
+                    stroke="#828282"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </span>
+              <input
+                type="text"
+                class="form-control t-hero-input-group-input"
+                placeholder="Mar 20, 2024"
+              />
+            </div>
+            <div class="input-group flex-fill t-input-group-item">
+              <span class="input-group-text t-hero-input-group-text" id="">
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 20 20"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M15.1166 18.0168C14.3833 18.2335 13.5166 18.3335 12.5 18.3335H7.49997C6.4833 18.3335 5.61663 18.2335 4.8833 18.0168C5.06663 15.8502 7.29163 14.1418 9.99997 14.1418C12.7083 14.1418 14.9333 15.8502 15.1166 18.0168V18.0168Z"
+                    stroke="#828282"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M12.4998 1.66675H7.49984C3.33317 1.66675 1.6665 3.33341 1.6665 7.50008V12.5001C1.6665 15.6501 2.6165 17.3751 4.88317 18.0167C5.0665 15.8501 7.2915 14.1417 9.99984 14.1417C12.7082 14.1417 14.9332 15.8501 15.1165 18.0167C17.3832 17.3751 18.3332 15.6501 18.3332 12.5001V7.50008C18.3332 3.33341 16.6665 1.66675 12.4998 1.66675ZM9.99984 11.8084C8.34984 11.8084 7.0165 10.4667 7.0165 8.81675C7.0165 7.16675 8.34984 5.83341 9.99984 5.83341C11.6498 5.83341 12.9832 7.16675 12.9832 8.81675C12.9832 10.4667 11.6498 11.8084 9.99984 11.8084Z"
+                    stroke="#828282"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M12.9833 8.81683C12.9833 10.4668 11.6499 11.8085 9.99993 11.8085C8.34993 11.8085 7.0166 10.4668 7.0166 8.81683C7.0166 7.16683 8.34993 5.8335 9.99993 5.8335C11.6499 5.8335 12.9833 7.16683 12.9833 8.81683Z"
+                    stroke="#828282"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </span>
+              <input
+                type="text"
+                class="form-control t-hero-input-group-input"
+                placeholder="2 adult, 1 room"
+              />
+            </div>
+            <div
+              class="input-group flex-fill t-input-group-item"
+              style="max-width: 220px"
+            >
+              <a class="w-100" href="search-results.html">
+                <button class="t-hero-button-primary">
+                  Check Availability
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- AVAILABILITY SEARCH SECTION END -->
+
+        <!-- ROOM SELECTION SECTION START -->
+        <div class="container-fluid p-mt-18">
+          <div class="row">
+            <div class="col p-1">
+              <div class="p-room-card-promo">
+                <img
+                  class="p-promo-image"
+                  src="images/product/promo.png"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="col p-1">
+              <div class="p-room-card">
+                <img src="images/product/room1.png" alt="" />
+                <div class="p-room-card-body p-3">
+                  <div class="p-overview-heading">
+                    Standard twin bed, Multiple beds
+                  </div>
+                  <div class="container-fluid p-0 p-mt-18">
+                    <div class="d-flex flex-row gap-2">
+                      <span>
+                        <svg
+                          width="20"
+                          height="20"
+                          viewBox="0 0 20 20"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M9.99984 15.8337C10.8839 15.8337 11.7317 15.4825 12.3569 14.8573C12.982 14.2322 13.3332 13.3844 13.3332 12.5003C13.3332 11.6163 12.982 10.7684 12.3569 10.1433C11.7317 9.51818 10.8839 9.16699 9.99984 9.16699C9.11578 9.16699 8.26794 9.51818 7.64281 10.1433C7.01769 10.7684 6.6665 11.6163 6.6665 12.5003C6.6665 13.3844 7.01769 14.2322 7.64281 14.8573C8.26794 15.4825 9.11578 15.8337 9.99984 15.8337V15.8337Z"
+                            stroke="#828282"
+                            stroke-width="1.2"
+                            stroke-miterlimit="10"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                          <path
+                            d="M8.69971 12.5003L9.24137 13.0419C9.39971 13.2003 9.65804 13.2086 9.81637 13.0503L11.2997 11.6836"
+                            stroke="#828282"
+                            stroke-width="1.2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                          <path
+                            d="M7.49986 18.3337H12.4999C15.8499 18.3337 16.4499 16.992 16.6249 15.3587L17.2499 10.3587C17.4749 8.32533 16.8915 6.66699 13.3332 6.66699H6.66652C3.10819 6.66699 2.52486 8.32533 2.74986 10.3587L3.37486 15.3587C3.54986 16.992 4.14986 18.3337 7.49986 18.3337Z"
+                            stroke="#828282"
+                            stroke-width="1.2"
+                            stroke-miterlimit="10"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                          <path
+                            d="M6.25 6.3918V5.58346C6.25 3.70846 7.75833 1.8668 9.63333 1.6918C10.1543 1.64061 10.6802 1.69907 11.1773 1.86341C11.6743 2.02775 12.1314 2.29434 12.5192 2.646C12.9069 2.99767 13.2168 3.42663 13.4288 3.90527C13.6408 4.38392 13.7502 4.90164 13.75 5.42513V6.57513"
+                            stroke="#828282"
+                            stroke-width="1.2"
+                            stroke-miterlimit="10"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                        </svg>
+                      </span>
+                      <div class="p-fac">300 sq ft</div>
+                    </div>
+                    <!-- ITEM 2 -->
+                    <div class="d-flex flex-row gap-2 mt-2">
+                      <span>
+                        <svg
+                          width="20"
+                          height="20"
+                          viewBox="0 0 20 20"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M9.97493 18.3332C14.5774 18.3332 18.3083 14.6023 18.3083 9.99984C18.3083 5.39734 14.5774 1.6665 9.97493 1.6665C5.37244 1.6665 1.6416 5.39734 1.6416 9.99984C1.6416 14.6023 5.37244 18.3332 9.97493 18.3332V18.3332Z"
+                            stroke="#828282"
+                            stroke-width="1.2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                          <path
+                            d="M10 13.75C10.9946 13.75 11.9484 13.3549 12.6516 12.6516C13.3549 11.9484 13.75 10.9946 13.75 10C13.75 9.00544 13.3549 8.05161 12.6516 7.34835C11.9484 6.64509 10.9946 6.25 10 6.25C9.00544 6.25 8.05161 6.64509 7.34835 7.34835C6.64509 8.05161 6.25 9.00544 6.25 10C6.25 10.9946 6.64509 11.9484 7.34835 12.6516C8.05161 13.3549 9.00544 13.75 10 13.75V13.75Z"
+                            stroke="#828282"
+                            stroke-width="1.2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                          <path
+                            d="M4.08301 4.1084L7.03301 7.05006"
+                            stroke="#828282"
+                            stroke-width="1.2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                          <path
+                            d="M4.08301 15.8914L7.03301 12.9497"
+                            stroke="#828282"
+                            stroke-width="1.2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                          <path
+                            d="M15.8748 15.8914L12.9248 12.9497"
+                            stroke="#828282"
+                            stroke-width="1.2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                          <path
+                            d="M15.8748 4.1084L12.9248 7.05006"
+                            stroke="#828282"
+                            stroke-width="1.2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                        </svg>
+                      </span>
+                      <div class="p-fac">Sleeps 3</div>
+                    </div>
+                    <!-- ITEM 3 -->
+                    <div class="d-flex flex-row gap-2 mt-2">
+                      <span>
+                        <svg
+                          width="20"
+                          height="20"
+                          viewBox="0 0 20 20"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M6.2334 15.2916L8.81673 17.2916C9.15006 17.6249 9.90006 17.7916 10.4001 17.7916H13.5667C14.5667 17.7916 15.6501 17.0416 15.9001 16.0416L17.9001 9.95823C18.3167 8.79156 17.5667 7.79156 16.3167 7.79156H12.9834C12.4834 7.79156 12.0667 7.37489 12.1501 6.79156L12.5667 4.12489C12.7334 3.37489 12.2334 2.54156 11.4834 2.29156C10.8167 2.04156 9.9834 2.37489 9.65006 2.87489L6.2334 7.95823"
+                            stroke="#828282"
+                            stroke-width="1.2"
+                            stroke-miterlimit="10"
+                          />
+                          <path
+                            d="M1.9834 15.2915V7.12484C1.9834 5.95817 2.4834 5.5415 3.65007 5.5415H4.4834C5.65007 5.5415 6.15007 5.95817 6.15007 7.12484V15.2915C6.15007 16.4582 5.65007 16.8748 4.4834 16.8748H3.65007C2.4834 16.8748 1.9834 16.4582 1.9834 15.2915Z"
+                            stroke="#828282"
+                            stroke-width="1.2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                        </svg>
+                      </span>
+                      <div class="p-fac">1 double bed and 1 twin bed</div>
+                    </div>
+                  </div>
+                  <button class="t-hero-button-primary p-mt-24">
+                    Reserve Suite
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col p-1">
+              <div class="p-room-card">
+                <img src="images/product/room2.png" alt="" />
+                <div class="p-room-card-body p-3">
+                  <div class="p-overview-heading">
+                    Standard twin bed, Multiple beds
+                  </div>
+                  <div class="container-fluid p-0 p-mt-18">
+                    <div class="d-flex flex-row gap-2">
+                      <span>
+                        <svg
+                          width="20"
+                          height="20"
+                          viewBox="0 0 20 20"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M9.99984 15.8337C10.8839 15.8337 11.7317 15.4825 12.3569 14.8573C12.982 14.2322 13.3332 13.3844 13.3332 12.5003C13.3332 11.6163 12.982 10.7684 12.3569 10.1433C11.7317 9.51818 10.8839 9.16699 9.99984 9.16699C9.11578 9.16699 8.26794 9.51818 7.64281 10.1433C7.01769 10.7684 6.6665 11.6163 6.6665 12.5003C6.6665 13.3844 7.01769 14.2322 7.64281 14.8573C8.26794 15.4825 9.11578 15.8337 9.99984 15.8337V15.8337Z"
+                            stroke="#828282"
+                            stroke-width="1.2"
+                            stroke-miterlimit="10"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                          <path
+                            d="M8.69971 12.5003L9.24137 13.0419C9.39971 13.2003 9.65804 13.2086 9.81637 13.0503L11.2997 11.6836"
+                            stroke="#828282"
+                            stroke-width="1.2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                          <path
+                            d="M7.49986 18.3337H12.4999C15.8499 18.3337 16.4499 16.992 16.6249 15.3587L17.2499 10.3587C17.4749 8.32533 16.8915 6.66699 13.3332 6.66699H6.66652C3.10819 6.66699 2.52486 8.32533 2.74986 10.3587L3.37486 15.3587C3.54986 16.992 4.14986 18.3337 7.49986 18.3337Z"
+                            stroke="#828282"
+                            stroke-width="1.2"
+                            stroke-miterlimit="10"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                          <path
+                            d="M6.25 6.3918V5.58346C6.25 3.70846 7.75833 1.8668 9.63333 1.6918C10.1543 1.64061 10.6802 1.69907 11.1773 1.86341C11.6743 2.02775 12.1314 2.29434 12.5192 2.646C12.9069 2.99767 13.2168 3.42663 13.4288 3.90527C13.6408 4.38392 13.7502 4.90164 13.75 5.42513V6.57513"
+                            stroke="#828282"
+                            stroke-width="1.2"
+                            stroke-miterlimit="10"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                        </svg>
+                      </span>
+                      <div class="p-fac">300 sq ft</div>
+                    </div>
+                    <!-- ITEM 2 -->
+                    <div class="d-flex flex-row gap-2 mt-2">
+                      <span>
+                        <svg
+                          width="20"
+                          height="20"
+                          viewBox="0 0 20 20"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M9.97493 18.3332C14.5774 18.3332 18.3083 14.6023 18.3083 9.99984C18.3083 5.39734 14.5774 1.6665 9.97493 1.6665C5.37244 1.6665 1.6416 5.39734 1.6416 9.99984C1.6416 14.6023 5.37244 18.3332 9.97493 18.3332V18.3332Z"
+                            stroke="#828282"
+                            stroke-width="1.2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                          <path
+                            d="M10 13.75C10.9946 13.75 11.9484 13.3549 12.6516 12.6516C13.3549 11.9484 13.75 10.9946 13.75 10C13.75 9.00544 13.3549 8.05161 12.6516 7.34835C11.9484 6.64509 10.9946 6.25 10 6.25C9.00544 6.25 8.05161 6.64509 7.34835 7.34835C6.64509 8.05161 6.25 9.00544 6.25 10C6.25 10.9946 6.64509 11.9484 7.34835 12.6516C8.05161 13.3549 9.00544 13.75 10 13.75V13.75Z"
+                            stroke="#828282"
+                            stroke-width="1.2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                          <path
+                            d="M4.08301 4.1084L7.03301 7.05006"
+                            stroke="#828282"
+                            stroke-width="1.2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                          <path
+                            d="M4.08301 15.8914L7.03301 12.9497"
+                            stroke="#828282"
+                            stroke-width="1.2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                          <path
+                            d="M15.8748 15.8914L12.9248 12.9497"
+                            stroke="#828282"
+                            stroke-width="1.2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                          <path
+                            d="M15.8748 4.1084L12.9248 7.05006"
+                            stroke="#828282"
+                            stroke-width="1.2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                        </svg>
+                      </span>
+                      <div class="p-fac">Sleeps 3</div>
+                    </div>
+                    <!-- ITEM 3 -->
+                    <div class="d-flex flex-row gap-2 mt-2">
+                      <span>
+                        <svg
+                          width="20"
+                          height="20"
+                          viewBox="0 0 20 20"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M6.2334 15.2916L8.81673 17.2916C9.15006 17.6249 9.90006 17.7916 10.4001 17.7916H13.5667C14.5667 17.7916 15.6501 17.0416 15.9001 16.0416L17.9001 9.95823C18.3167 8.79156 17.5667 7.79156 16.3167 7.79156H12.9834C12.4834 7.79156 12.0667 7.37489 12.1501 6.79156L12.5667 4.12489C12.7334 3.37489 12.2334 2.54156 11.4834 2.29156C10.8167 2.04156 9.9834 2.37489 9.65006 2.87489L6.2334 7.95823"
+                            stroke="#828282"
+                            stroke-width="1.2"
+                            stroke-miterlimit="10"
+                          />
+                          <path
+                            d="M1.9834 15.2915V7.12484C1.9834 5.95817 2.4834 5.5415 3.65007 5.5415H4.4834C5.65007 5.5415 6.15007 5.95817 6.15007 7.12484V15.2915C6.15007 16.4582 5.65007 16.8748 4.4834 16.8748H3.65007C2.4834 16.8748 1.9834 16.4582 1.9834 15.2915Z"
+                            stroke="#828282"
+                            stroke-width="1.2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                        </svg>
+                      </span>
+                      <div class="p-fac">1 double bed and 1 twin bed</div>
+                    </div>
+                  </div>
+                  <button class="t-hero-button-primary p-mt-24">
+                    Reserve Suite
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ROOM SELECTION SECTION END -->
+      </div>
+      <!-- ROOM SECTION END -->
+
+      <!-- COVID SECTION START -->
+      <section class="container-fluid p-0 t-m-60">
+        <div class="d-flex gap-3 align-items-center t-covid-warning">
+          <span>
+            <svg
+              width="32"
+              height="32"
+              viewBox="0 0 32 32"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M16 12V18.6667"
+                stroke="#292D32"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M16.0001 28.5468H7.92007C3.29341 28.5468 1.36007 25.2401 3.60007 21.2001L7.76007 13.7068L11.6801 6.66679C14.0534 2.38679 17.9467 2.38679 20.3201 6.66679L24.2401 13.7201L28.4001 21.2135C30.6401 25.2535 28.6934 28.5601 24.0801 28.5601H16.0001V28.5468Z"
+                stroke="#292D32"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M15.9932 22.6667H16.0052"
+                stroke="#292D32"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </span>
+          <span class="t-covid-text">
+            Check the latest COVID-19 restrictions before you travel.
+            <a class="t-url" href="#">Learn more</a>
+          </span>
+        </div>
+      </section>
+      <!-- COVID SECTION END -->
+
+      <div class="t-m-80"></div>
+      <!-- FOOTER START -->
+      <section class="container-fluid m-0 p-0">
+        <div class="row">
+          <div
+            class="col-12 col-md ps-0 pe-0 ms-0 me-0 mt-4 mt-md-0 d-flex justify-content-center order-last order-md-0"
+          >
+            <svg
+              width="225"
+              height="70"
+              viewBox="0 0 225 70"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M3.414 13.778C2.5 14 2 15.192 2 15.192C2 15.192 5.398 15.626 6.949 17.313C8.5 19 9.071 22.263 9.071 22.263C9.071 22.263 10.47 22.698 10.485 20.849C10.5 19 9.778 17.313 9.778 17.313L13.091 14L16.701 21.704C16.701 21.704 18.08 22.23 18.04 20.365C18 18.5 16.85 10.242 16.85 10.242L19.678 7.413C19.869 7.22851 20.0214 7.00782 20.1262 6.76381C20.231 6.5198 20.2862 6.25736 20.2885 5.99181C20.2908 5.72625 20.2402 5.46289 20.1396 5.21709C20.0391 4.9713 19.8906 4.748 19.7028 4.56021C19.515 4.37243 19.2917 4.22392 19.0459 4.12336C18.8001 4.0228 18.5368 3.97219 18.2712 3.9745C18.0056 3.97681 17.7432 4.03198 17.4992 4.1368C17.2552 4.24162 17.0345 4.39398 16.85 4.585L13.947 7.488C13.947 7.488 6.148 6.09401 3.824 6.297C1.5 6.5 2.559 7.563 2.559 7.563L10.203 11.233L6.95 14.486C6.95 14.486 4.328 13.556 3.414 13.778Z"
+                fill="#2F80ED"
+              />
+              <path
+                d="M28.9404 18.5H30.8389V12.7871C30.8389 11.6006 31.6387 10.7217 32.7637 10.7217C33.8359 10.7217 34.5127 11.3984 34.5127 12.4619V18.5H36.376V12.7256C36.376 11.5566 37.1582 10.7217 38.2832 10.7217C39.4082 10.7217 40.0498 11.4072 40.0498 12.6025V18.5H41.957V12.1455C41.957 10.3086 40.7617 9.0957 38.9336 9.0957C37.6152 9.0957 36.5254 9.78125 36.0508 10.9062H36.0068C35.6377 9.75488 34.7061 9.0957 33.4229 9.0957C32.1748 9.0957 31.208 9.78125 30.7949 10.8096H30.751V9.25391H28.9404V18.5ZM45.068 21.9453C46.9928 21.9453 47.8981 21.2246 48.6891 18.9834L52.1608 9.25391H50.1569L47.8102 16.7773H47.7838L45.4371 9.25391H43.3805L46.7204 18.5088C46.7204 18.5176 46.5534 19.0625 46.5534 19.0801C46.2633 20.0293 45.7975 20.3984 44.9098 20.3984C44.7516 20.3984 44.4352 20.3984 44.2946 20.3633V21.9014C44.4352 21.9277 44.9186 21.9453 45.068 21.9453ZM57.8818 5.81738V18.5H62.3554C66.1347 18.5 68.3583 16.1445 68.3583 12.1367C68.3583 8.1377 66.1259 5.81738 62.3554 5.81738H57.8818ZM59.8505 7.51367H62.1708C64.8515 7.51367 66.3456 9.16602 66.3456 12.1543C66.3456 15.1514 64.8603 16.7949 62.1708 16.7949H59.8505V7.51367ZM70.3707 18.5H72.2691V12.9629C72.2691 11.6533 73.025 10.8359 74.2466 10.8359C74.6158 10.8359 74.9498 10.8799 75.0992 10.9414V9.1748C74.9586 9.14844 74.7212 9.10449 74.4488 9.10449C73.3589 9.10449 72.5328 9.74609 72.2252 10.8271H72.1812V9.25391H70.3707V18.5ZM80.0998 10.6162C81.427 10.6162 82.3234 11.6094 82.3674 13.0244H77.7443C77.841 11.627 78.7727 10.6162 80.0998 10.6162ZM82.3586 15.7842C82.1037 16.5928 81.3039 17.1377 80.2229 17.1377C78.7023 17.1377 77.7355 16.0742 77.7355 14.4658V14.3516H84.2658V13.7012C84.2658 10.8975 82.6662 9.08691 80.0998 9.08691C77.4895 9.08691 75.8195 11.0205 75.8195 13.9209C75.8195 16.8389 77.4631 18.6758 80.1789 18.6758C82.2971 18.6758 83.8967 17.4717 84.1604 15.7842H82.3586ZM89.3368 17.1553C88.3172 17.1553 87.6493 16.6279 87.6493 15.8193C87.6493 15.0283 88.2909 14.5273 89.4246 14.4482L91.701 14.3076V15.0371C91.701 16.2412 90.6639 17.1553 89.3368 17.1553ZM88.8094 18.6582C90.0223 18.6582 91.1912 18.0078 91.7274 16.9795H91.7713V18.5H93.5907V12.1279C93.5907 10.2734 92.158 9.08691 89.9168 9.08691C87.6317 9.08691 86.2079 10.3174 86.1024 11.9873H87.8954C88.0623 11.1611 88.7479 10.6338 89.8465 10.6338C91.0067 10.6338 91.701 11.249 91.701 12.2773V12.9893L89.1698 13.1387C86.9725 13.2617 85.7332 14.2549 85.7332 15.8721C85.7332 17.5332 86.9989 18.6582 88.8094 18.6582ZM95.7964 18.5H97.6948V12.7871C97.6948 11.6006 98.4946 10.7217 99.6196 10.7217C100.692 10.7217 101.369 11.3984 101.369 12.4619V18.5H103.232V12.7256C103.232 11.5566 104.014 10.7217 105.139 10.7217C106.264 10.7217 106.906 11.4072 106.906 12.6025V18.5H108.813V12.1455C108.813 10.3086 107.618 9.0957 105.79 9.0957C104.471 9.0957 103.381 9.78125 102.907 10.9062H102.863C102.494 9.75488 101.562 9.0957 100.279 9.0957C99.0307 9.0957 98.0639 9.78125 97.6509 10.8096H97.6069V9.25391H95.7964V18.5ZM115.255 5.81738V18.5H117.223V14.167H119.948C122.435 14.167 124.184 12.4619 124.184 9.9834C124.184 7.51367 122.47 5.81738 120.01 5.81738H115.255ZM117.223 7.47852H119.491C121.196 7.47852 122.172 8.39258 122.172 9.99219C122.172 11.5918 121.196 12.5146 119.482 12.5146H117.223V7.47852ZM126.109 18.5H128.007V5.81738H126.109V18.5ZM133.553 17.1553C132.533 17.1553 131.865 16.6279 131.865 15.8193C131.865 15.0283 132.507 14.5273 133.641 14.4482L135.917 14.3076V15.0371C135.917 16.2412 134.88 17.1553 133.553 17.1553ZM133.025 18.6582C134.238 18.6582 135.407 18.0078 135.943 16.9795H135.987V18.5H137.807V12.1279C137.807 10.2734 136.374 9.08691 134.133 9.08691C131.848 9.08691 130.424 10.3174 130.318 11.9873H132.111C132.278 11.1611 132.964 10.6338 134.063 10.6338C135.223 10.6338 135.917 11.249 135.917 12.2773V12.9893L133.386 13.1387C131.189 13.2617 129.949 14.2549 129.949 15.8721C129.949 17.5332 131.215 18.6582 133.025 18.6582ZM147.949 12.4355C147.782 10.6162 146.332 9.08691 143.95 9.08691C141.322 9.08691 139.599 10.9414 139.599 13.877C139.599 16.8652 141.322 18.6758 143.967 18.6758C146.191 18.6758 147.764 17.3398 147.966 15.3711H146.138C145.919 16.4434 145.154 17.085 143.985 17.085C142.508 17.085 141.533 15.9072 141.533 13.877C141.533 11.8906 142.5 10.6689 143.967 10.6689C145.207 10.6689 145.945 11.4512 146.138 12.4355H147.949ZM153.538 10.6162C154.866 10.6162 155.762 11.6094 155.806 13.0244H151.183C151.28 11.627 152.211 10.6162 153.538 10.6162ZM155.797 15.7842C155.542 16.5928 154.743 17.1377 153.661 17.1377C152.141 17.1377 151.174 16.0742 151.174 14.4658V14.3516H157.704V13.7012C157.704 10.8975 156.105 9.08691 153.538 9.08691C150.928 9.08691 149.258 11.0205 149.258 13.9209C149.258 16.8389 150.902 18.6758 153.618 18.6758C155.736 18.6758 157.335 17.4717 157.599 15.7842H155.797Z"
+                fill="#1B1F2D"
+              />
+              <path
+                d="M32.9014 45V40.7549L36.4014 35.1357H35L32.3066 39.5654H32.2656L29.5723 35.1357H28.1709L31.6709 40.7549V45H32.9014ZM39.2722 45.123C41.2341 45.123 42.5603 43.708 42.5603 41.4453C42.5603 39.1758 41.2341 37.7676 39.2722 37.7676C37.3034 37.7676 35.9773 39.1758 35.9773 41.4453C35.9773 43.708 37.3034 45.123 39.2722 45.123ZM39.2722 44.0771C38.0144 44.0771 37.1872 43.1201 37.1872 41.4453C37.1872 39.7705 38.0144 38.8135 39.2722 38.8135C40.53 38.8135 41.3503 39.7705 41.3503 41.4453C41.3503 43.1201 40.53 44.0771 39.2722 44.0771ZM49.8813 37.8906H48.6918V42.0674C48.6918 43.2773 47.9946 44.0703 46.8393 44.0703C45.7387 44.0703 45.1987 43.4482 45.1987 42.293V37.8906H44.0092V42.5049C44.0092 44.1182 44.9184 45.123 46.4702 45.123C47.5639 45.123 48.3022 44.665 48.726 43.8447H48.7534V45H49.8813V37.8906ZM51.7062 45H52.8957V40.5703C52.8957 39.5654 53.4972 38.9023 54.4201 38.9023C54.7072 38.9023 54.9601 38.9365 55.0558 38.9707V37.8154C54.9601 37.8018 54.7824 37.7676 54.5773 37.7676C53.7433 37.7676 53.0871 38.2666 52.8546 39.0527H52.8273V37.8906H51.7062V45ZM59.4576 45H60.6471V40.8164C60.6471 39.6133 61.3785 38.8203 62.4996 38.8203C63.5934 38.8203 64.1334 39.4492 64.1334 40.5977V45H65.3229V40.3857C65.3229 38.7725 64.4205 37.7676 62.8619 37.7676C61.7613 37.7676 61.0025 38.2598 60.6061 39.0254H60.5787V37.8906H59.4576V45ZM69.971 38.7998C71.0921 38.7998 71.8372 39.6475 71.8646 40.8369H68.0023C68.0775 39.6543 68.8568 38.7998 69.971 38.7998ZM71.8372 42.9629C71.639 43.6328 70.9759 44.0908 70.0736 44.0908C68.7952 44.0908 67.9954 43.1953 67.9954 41.835V41.7666H73.095V41.3154C73.095 39.1621 71.9124 37.7676 69.9915 37.7676C68.0296 37.7676 66.7718 39.2646 66.7718 41.4727C66.7718 43.708 68.0091 45.123 70.0462 45.123C71.598 45.123 72.8011 44.207 73.0062 42.9629H71.8372ZM76.9571 42.293L78.6592 45H79.9786L77.6133 41.3975L80.0127 37.8906H78.6866L76.9981 40.5566H76.9707L75.2618 37.8906H73.9356L76.3145 41.4453L73.8946 45H75.2139L76.9297 42.293H76.9571ZM81.6804 36.1748V37.8906H80.6209V38.8682H81.6804V43.1543C81.6804 44.5215 82.1863 45.0547 83.492 45.0547C83.7722 45.0547 84.1004 45.0342 84.2439 45V44.002C84.1619 44.0156 83.8884 44.0361 83.7517 44.0361C83.1433 44.0361 82.8699 43.7422 82.8699 43.0928V38.8682H84.2507V37.8906H82.8699V36.1748H81.6804ZM91.8449 44.0088C90.6213 44.0088 89.8215 43.0107 89.8215 41.418C89.8215 39.8252 90.6213 38.8135 91.8449 38.8135C93.0822 38.8135 93.9094 39.8525 93.9094 41.418C93.9094 42.9834 93.0822 44.0088 91.8449 44.0088ZM91.8859 47.6797C93.8479 47.6797 95.0988 46.5518 95.0988 44.8564V37.8906H93.9641V39.0869H93.9436C93.4719 38.2598 92.6379 37.7676 91.633 37.7676C89.7941 37.7676 88.6047 39.1895 88.6047 41.418C88.6047 43.626 89.7941 45.0547 91.6057 45.0547C92.6037 45.0547 93.4445 44.5488 93.882 43.7764H93.9094V44.8975C93.9094 45.957 93.1643 46.668 91.9338 46.668C91.0451 46.668 90.341 46.2373 90.1086 45.5879H88.885C89.0832 46.7979 90.3205 47.6797 91.8859 47.6797ZM99.8769 45.123C101.839 45.123 103.165 43.708 103.165 41.4453C103.165 39.1758 101.839 37.7676 99.8769 37.7676C97.9081 37.7676 96.582 39.1758 96.582 41.4453C96.582 43.708 97.9081 45.123 99.8769 45.123ZM99.8769 44.0771C98.6191 44.0771 97.7919 43.1201 97.7919 41.4453C97.7919 39.7705 98.6191 38.8135 99.8769 38.8135C101.135 38.8135 101.955 39.7705 101.955 41.4453C101.955 43.1201 101.135 44.0771 99.8769 44.0771ZM105.031 36.1748V37.8906H103.971V38.8682H105.031V43.1543C105.031 44.5215 105.537 45.0547 106.842 45.0547C107.123 45.0547 107.451 45.0342 107.594 45V44.002C107.512 44.0156 107.239 44.0361 107.102 44.0361C106.494 44.0361 106.22 43.7422 106.22 43.0928V38.8682H107.601V37.8906H106.22V36.1748H105.031ZM111.894 45.123C113.856 45.123 115.182 43.708 115.182 41.4453C115.182 39.1758 113.856 37.7676 111.894 37.7676C109.925 37.7676 108.599 39.1758 108.599 41.4453C108.599 43.708 109.925 45.123 111.894 45.123ZM111.894 44.0771C110.636 44.0771 109.809 43.1201 109.809 41.4453C109.809 39.7705 110.636 38.8135 111.894 38.8135C113.152 38.8135 113.972 39.7705 113.972 41.4453C113.972 43.1201 113.152 44.0771 111.894 44.0771ZM125.722 40.2217C125.572 38.9434 124.512 37.7676 122.735 37.7676C120.773 37.7676 119.468 39.2031 119.468 41.4453C119.468 43.7354 120.78 45.123 122.749 45.123C124.362 45.123 125.552 44.125 125.736 42.71H124.567C124.362 43.5645 123.726 44.0771 122.756 44.0771C121.525 44.0771 120.678 43.0996 120.678 41.4453C120.678 39.832 121.512 38.8135 122.742 38.8135C123.788 38.8135 124.389 39.4492 124.56 40.2217H125.722ZM130.056 45.123C132.018 45.123 133.344 43.708 133.344 41.4453C133.344 39.1758 132.018 37.7676 130.056 37.7676C128.087 37.7676 126.761 39.1758 126.761 41.4453C126.761 43.708 128.087 45.123 130.056 45.123ZM130.056 44.0771C128.798 44.0771 127.971 43.1201 127.971 41.4453C127.971 39.7705 128.798 38.8135 130.056 38.8135C131.314 38.8135 132.134 39.7705 132.134 41.4453C132.134 43.1201 131.314 44.0771 130.056 44.0771ZM134.827 45H136.017V40.543C136.017 39.5586 136.7 38.8203 137.644 38.8203C138.526 38.8203 139.1 39.3809 139.1 40.2354V45H140.289V40.4814C140.289 39.5176 140.952 38.8203 141.896 38.8203C142.832 38.8203 143.372 39.3945 143.372 40.3652V45H144.562V40.0918C144.562 38.6836 143.653 37.7676 142.244 37.7676C141.246 37.7676 140.412 38.2734 140.016 39.1211H139.989C139.681 38.2598 138.963 37.7676 137.992 37.7676C137.035 37.7676 136.311 38.2734 135.976 39.0254H135.948V37.8906H134.827V45ZM149.811 37.7676C148.779 37.7676 147.952 38.2939 147.515 39.0938H147.487V37.8906H146.359V47.3721H147.549V43.8447H147.576C148 44.624 148.82 45.123 149.839 45.123C151.63 45.123 152.853 43.6738 152.853 41.4453C152.853 39.2168 151.623 37.7676 149.811 37.7676ZM149.579 44.0771C148.362 44.0771 147.542 43.0312 147.542 41.4453C147.542 39.8662 148.362 38.8135 149.579 38.8135C150.844 38.8135 151.637 39.8389 151.637 41.4453C151.637 43.0586 150.844 44.0771 149.579 44.0771ZM156.681 44.1113C155.827 44.1113 155.259 43.667 155.259 42.9902C155.259 42.3203 155.806 41.8965 156.763 41.835L158.664 41.7188V42.2998C158.664 43.3252 157.802 44.1113 156.681 44.1113ZM156.415 45.123C157.372 45.123 158.274 44.5898 158.698 43.7764H158.725V45H159.853V40.085C159.853 38.6699 158.8 37.7676 157.132 37.7676C155.451 37.7676 154.398 38.7109 154.316 39.9414H155.465C155.615 39.2441 156.189 38.8135 157.105 38.8135C158.09 38.8135 158.664 39.333 158.664 40.2012V40.7959L156.627 40.9121C154.986 41.0078 154.049 41.7734 154.049 42.9902C154.049 44.2686 155 45.123 156.415 45.123ZM161.644 45H162.833V40.8164C162.833 39.6133 163.565 38.8203 164.686 38.8203C165.78 38.8203 166.32 39.4492 166.32 40.5977V45H167.509V40.3857C167.509 38.7725 166.607 37.7676 165.048 37.7676C163.948 37.7676 163.189 38.2598 162.792 39.0254H162.765V37.8906H161.644V45ZM169.368 45H170.558V37.8906H169.368V45ZM169.963 36.6943C170.373 36.6943 170.708 36.3594 170.708 35.9561C170.708 35.5459 170.373 35.2178 169.963 35.2178C169.56 35.2178 169.225 35.5459 169.225 35.9561C169.225 36.3594 169.56 36.6943 169.963 36.6943ZM175.39 45.123C177.352 45.123 178.679 43.708 178.679 41.4453C178.679 39.1758 177.352 37.7676 175.39 37.7676C173.422 37.7676 172.096 39.1758 172.096 41.4453C172.096 43.708 173.422 45.123 175.39 45.123ZM175.39 44.0771C174.133 44.0771 173.306 43.1201 173.306 41.4453C173.306 39.7705 174.133 38.8135 175.39 38.8135C176.648 38.8135 177.469 39.7705 177.469 41.4453C177.469 43.1201 176.648 44.0771 175.39 44.0771ZM180.162 45H181.351V40.8164C181.351 39.6133 182.083 38.8203 183.204 38.8203C184.297 38.8203 184.837 39.4492 184.837 40.5977V45H186.027V40.3857C186.027 38.7725 185.125 37.7676 183.566 37.7676C182.465 37.7676 181.707 38.2598 181.31 39.0254H181.283V37.8906H180.162V45ZM191.358 45H192.548V38.8682H193.997V37.8906H192.541V37.1045C192.541 36.4004 192.849 36.0586 193.491 36.0586C193.689 36.0586 193.888 36.0791 194.031 36.0996V35.1357C193.86 35.1084 193.573 35.0811 193.307 35.0811C191.994 35.0811 191.358 35.7305 191.358 37.0977V37.8906H190.367V38.8682H191.358V45ZM198.112 45.123C200.074 45.123 201.4 43.708 201.4 41.4453C201.4 39.1758 200.074 37.7676 198.112 37.7676C196.143 37.7676 194.817 39.1758 194.817 41.4453C194.817 43.708 196.143 45.123 198.112 45.123ZM198.112 44.0771C196.854 44.0771 196.027 43.1201 196.027 41.4453C196.027 39.7705 196.854 38.8135 198.112 38.8135C199.37 38.8135 200.19 39.7705 200.19 41.4453C200.19 43.1201 199.37 44.0771 198.112 44.0771ZM202.883 45H204.073V40.5703C204.073 39.5654 204.674 38.9023 205.597 38.9023C205.884 38.9023 206.137 38.9365 206.233 38.9707V37.8154C206.137 37.8018 205.959 37.7676 205.754 37.7676C204.92 37.7676 204.264 38.2666 204.032 39.0527H204.004V37.8906H202.883V45ZM29.1553 56.1748V57.8906H28.0957V58.8682H29.1553V63.1543C29.1553 64.5215 29.6611 65.0547 30.9668 65.0547C31.2471 65.0547 31.5752 65.0342 31.7188 65V64.002C31.6367 64.0156 31.3633 64.0361 31.2266 64.0361C30.6182 64.0361 30.3447 63.7422 30.3447 63.0928V58.8682H31.7256V57.8906H30.3447V56.1748H29.1553ZM33.2771 65H34.4665V60.5703C34.4665 59.5654 35.0681 58.9023 35.9909 58.9023C36.278 58.9023 36.531 58.9365 36.6267 58.9707V57.8154C36.531 57.8018 36.3532 57.7676 36.1482 57.7676C35.3142 57.7676 34.6579 58.2666 34.4255 59.0527H34.3982V57.8906H33.2771V65ZM40.0854 64.1113C39.2309 64.1113 38.6635 63.667 38.6635 62.9902C38.6635 62.3203 39.2104 61.8965 40.1674 61.835L42.0678 61.7188V62.2998C42.0678 63.3252 41.2065 64.1113 40.0854 64.1113ZM39.8188 65.123C40.7758 65.123 41.6782 64.5898 42.102 63.7764H42.1293V65H43.2573V60.085C43.2573 58.6699 42.2045 57.7676 40.5366 57.7676C38.8549 57.7676 37.8022 58.7109 37.7202 59.9414H38.8686C39.019 59.2441 39.5932 58.8135 40.5092 58.8135C41.4936 58.8135 42.0678 59.333 42.0678 60.2012V60.7959L40.0307 60.9121C38.3901 61.0078 37.4536 61.7734 37.4536 62.9902C37.4536 64.2686 38.4038 65.123 39.8188 65.123ZM50.8791 57.8906H49.6418L47.673 63.7354H47.6457L45.6838 57.8906H44.4328L47.0509 65H48.2677L50.8791 57.8906ZM54.7411 58.7998C55.8622 58.7998 56.6073 59.6475 56.6346 60.8369H52.7723C52.8475 59.6543 53.6268 58.7998 54.7411 58.7998ZM56.6073 62.9629C56.4091 63.6328 55.746 64.0908 54.8436 64.0908C53.5653 64.0908 52.7655 63.1953 52.7655 61.835V61.7666H57.8651V61.3154C57.8651 59.1621 56.6825 57.7676 54.7616 57.7676C52.7997 57.7676 51.5419 59.2646 51.5419 61.4727C51.5419 63.708 52.7792 65.123 54.8163 65.123C56.368 65.123 57.5712 64.207 57.7763 62.9629H56.6073ZM59.4098 65H60.5992V55.1357H59.4098V65Z"
+                fill="#4F4F4F"
+              />
+            </svg>
+          </div>
+          <div class="col">
+            <h1 class="t-footer-h2">Company</h1>
+            <ul class="t-footer-ul m-0 p-0 mt-3">
+              <li><a href="#">About</a></li>
+              <li><a href="#">Jobs</a></li>
+              <li><a href="#">Newsroom</a></li>
+              <li><a href="#">Advertising</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="col">
+            <h1 class="t-footer-h2">Explore</h1>
+            <ul class="t-footer-ul m-0 p-0 mt-3">
+              <li><a href="#">Australia</a></li>
+              <li><a href="#">United States America (USA)</a></li>
+              <li><a href="#">Greece</a></li>
+              <li><a href="#">Maldives</a></li>
+              <li><a href="#">Singapore</a></li>
+              <li>
+                <a class="t-url" href="#" style="color: #2f80ed">Show more</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col">
+            <h1 class="t-footer-h2">Terms and Policies</h1>
+            <ul class="t-footer-ul m-0 p-0 mt-3">
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms of use</a></li>
+              <li><a href="#">Acessibility</a></li>
+              <li><a href="#">Advertising</a></li>
+              <li><a href="#">Reward system policy</a></li>
+            </ul>
+          </div>
+          <div class="col">
+            <h1 class="t-footer-h2">Help</h1>
+            <ul class="t-footer-ul m-0 p-0 mt-3">
+              <li><a href="#">Support</a></li>
+              <li><a href="#">Cancel your bookings</a></li>
+              <li><a href="#">Use Coupon</a></li>
+              <li><a href="#">Refund Policies</a></li>
+              <li><a href="#">International Travel Documents</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- FOOTER END -->
     </div>
-    <!-- PRODUCT OVERVIEW END -->
 
-
-
-    
-    
-    
     <!-- BOTTOM LINE START -->
     <section
       class="t-botton-bar d-flex justify-content-end align-items-center pe-5"
