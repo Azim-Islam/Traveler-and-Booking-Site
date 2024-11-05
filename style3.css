@@ -301,6 +301,10 @@
     font-weight: 500;
     line-height: 20px;
     letter-spacing: 0.02em;
+    &:hover{
+        scale: 1.05;
+        filter: brightness(110%);
+    }
 
 }
 

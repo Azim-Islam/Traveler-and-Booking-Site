@@ -5,6 +5,9 @@
     box-sizing: border-box;
 }
 
+.no-animation{
+    transition: none !important;
+}
 
 .t-override-left-m-0{
     margin-left: 0px !important;
@@ -235,6 +238,11 @@
     font-weight: 500;
     line-height: 20px;
     letter-spacing: 0.02em;
+
+    &:hover{
+        scale: 1.05;
+        transform: translateY(-2px);
+    }
 }
 
 /* HERO END */
@@ -265,6 +273,7 @@
     display: flex;
     flex-direction: column;
     justify-content: left;
+    cursor: pointer;
 
     img{
         width: 100%;
@@ -292,6 +301,11 @@
         text-align: left;
         color: #181818;
         margin-bottom: 0;
+    }
+
+    &:hover{
+        transform: translateY(-10px);
+        scale: 1.05;
     }
 }
 /* DREAM VACATION END */
@@ -384,6 +398,11 @@
         text-align: left;
         color: #181818;
         margin-bottom: 0;
+    }
+
+    &:hover{
+        scale: 1.05;
+        transform: translate(-0px, -10px);
     }
 }
 /* HOTEL END */
