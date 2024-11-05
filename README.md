@@ -22,7 +22,7 @@ Here are some glimpses of what you'll experience:
 ### Reserve The Suite of Your Choosing
 ![Reserve](https://i.ibb.co.com/0ZSgdTY/reserve.png)
 
-### Pay Without Fear
+### Secure Payment
 ![Pay](https://i.ibb.co.com/k9nnGFx/Pay.png)
 
 ## 🛠️ Technologies Used
@@ -35,7 +35,7 @@ Here are some glimpses of what you'll experience:
 
 - Search & Browse stunning destinations.
 - Plan trips with a user-friendly interface.
-- Pay without fear.
+- Secure Payment.
 - Use across difference devices.
   
 ## 📬 Contact
