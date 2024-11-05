@@ -69,10 +69,12 @@
     border-right: 0px;
     border-bottom: 3px;
     border-color: #2F80ED;
+    cursor:not-allowed;
 }
 
 .p-group-button.active{
     border-style: solid !important;
+    cursor: pointer;
 }
 
 .p-bg-grey{
@@ -179,6 +181,27 @@
     min-height: 600px;
 }
 
+
+
+@media screen and (max-width: 576px) {
+    .p-group-button{
+        font-family: 'SF Pro Display', sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 19.09px;
+        letter-spacing: 0.02em;
+        text-align: center;
+        height: 42px;
+        color: #333333;
+        padding: 4px;
+        border-top: 0px;
+        border-left: 0px;
+        border-right: 0px;
+        border-bottom: 3px;
+        border-color: #2F80ED;
+        cursor:not-allowed;
+    }
+}
 
 @media screen and (max-width: 768px) {
     .p-image-container{
