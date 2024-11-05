@@ -5,6 +5,16 @@ Welcome to **My Dream Place** By **Bangladesh Software Solution**, a captivating
 ## 🚀 Live Demo
 
 Check out the live version of the site: [My Dream Place](https://travel.azimdev.me/)
+Pages:
+[Index](https://travel.azimdev.me/index.html)
+[Search Results](https://travel.azimdev.me/search-results.html)
+[Product Detail](https://travel.azimdev.me/product_detail.html)
+[Reservation](https://travel.azimdev.me/checkout.html)
+[Trips](https://travel.azimdev.me/checkout.html)
+[Signin](https://travel.azimdev.me/signin.html)
+[Register](https://travel.azimdev.me/register.html)
+[Forgot Password](https://travel.azimdev.me/forget-password.html)
+
 
 ## 📸 Screenshots
 
