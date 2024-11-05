@@ -1,4 +1,4 @@
-# 🌍 My Dream Place
+![{F36C97F8-DC0E-4499-8BA4-57097A72FDEC}](https://github.com/user-attachments/assets/986ec4a8-67b6-48a0-b106-a340be6e2476)# 🌍 My Dream Place
 
 Welcome to **My Dream Place**, a captivating travel site designed to inspire your next adventure! Explore stunning destinations, plan your trips, and embark on unforgettable journeys.
 
@@ -14,16 +14,16 @@ Here are some glimpses of what you'll experience:
 ![Home Page](https://i.ibb.co.com/MZtFcMs/home-ss.png)
 
 ### Destination Gallery
-![Destination Gallery](screenshots/destination-gallery.png)
+![Destination Gallery](https://i.ibb.co.com/JjWpHxZ/gallary.png)
 
-### Trip Planner
-![Trip Planner](screenshots/trip-planner.png)
+### Search Your Trip Destination
+![Search](https://i.ibb.co.com/CP82kTV/search.png)
 
-### Travel Blog
-![Travel Blog](screenshots/travel-blog.png)
+### Reserve The Suite of Your Choosing
+![Reserve](https://i.ibb.co.com/0ZSgdTY/reserve.png)
 
-### Contact Us
-![Contact Us](screenshots/contact-us.png)
+### Pay Without Fear
+![Pay](https://i.ibb.co.com/k9nnGFx/Pay.png)
 
 ## 🛠️ Technologies Used
 
@@ -35,9 +35,9 @@ Here are some glimpses of what you'll experience:
 
 - Search & Browse stunning destinations.
 - Plan trips with a user-friendly interface.
-- Read and share travel stories.
-- Contact us for personalized travel advice.
-
+- Pay without fear.
+- Use across difference devices.
+  
 ## 📬 Contact
 
 Feel free to reach out for any inquiries or feedback:
