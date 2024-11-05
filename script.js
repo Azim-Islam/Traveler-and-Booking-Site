@@ -4,6 +4,8 @@ const searchCards = document.getElementById('searchCards');
 const listOfCards = Array.from(searchCards.children).map(child => child.cloneNode(true));
 
 
+
+
 function loadMoreSearchItems(){
     // console.log(listOfCards)
     for (const element of listOfCards) {
@@ -13,8 +15,6 @@ function loadMoreSearchItems(){
         console.log('adding node');
     }
 }
-
-
 
 
 loadMoreBtn.addEventListener('click', loadMoreSearchItems);
