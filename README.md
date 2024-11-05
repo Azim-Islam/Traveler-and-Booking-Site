@@ -1,4 +1,4 @@
-![{F36C97F8-DC0E-4499-8BA4-57097A72FDEC}](https://github.com/user-attachments/assets/986ec4a8-67b6-48a0-b106-a340be6e2476)# 🌍 My Dream Place
+# 🌍 My Dream Place
 
 Welcome to **My Dream Place**, a captivating travel site designed to inspire your next adventure! Explore stunning destinations, plan your trips, and embark on unforgettable journeys.
 
