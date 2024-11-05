@@ -1,6 +1,6 @@
 # 🌍 My Dream Place
 
-Welcome to **My Dream Place**, a captivating travel site designed to inspire your next adventure! Explore stunning destinations, plan your trips, and embark on unforgettable journeys.
+Welcome to **My Dream Place** By **Bangladesh Software Solution**, a captivating travel site designed to inspire your next adventure! Explore stunning destinations, plan your trips, and embark on unforgettable journeys.
 
 ## 🚀 Live Demo
 
@@ -42,7 +42,7 @@ Here are some glimpses of what you'll experience:
 
 Feel free to reach out for any inquiries or feedback:
 
-- **Email**: azimislam5@gmai.com
+- **Email**: azimislam5@gmail.com
 
 ## 📄 License
 
