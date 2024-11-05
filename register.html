@@ -48,7 +48,7 @@
             <h1 class="t-body-heading mb-0">Register</h1>
           </div>
           <div class="col-12 p-0 s-mt-36">
-            <form class="d-flex flex-column">
+            <form class="d-flex flex-column" action="/register-next.html">
               <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label s-input-label"
                   >Email address</label
@@ -58,26 +58,11 @@
                   class="form-control s-input-field"
                   id="exampleInputEmail1"
                   aria-describedby="emailHelp"
+                  required
                 />
               </div>
-              <div class="mb-3 form-check d-flex align-items-center gap-2">
-                <input
-                  type="checkbox"
-                  class="form-check-input align-self-start"
-                  id="exampleCheck1"
-                />
-                <label class="form-check-label t-footer-p" for="exampleCheck1"
-                  >Keep me signed in</label
-                >
-                <a
-                  class="t-url align-self-center ms-auto"
-                  href="forget-password.html"
-                  style="font-size: 14px"
-                  >Forgot Password?</a
-                >
-              </div>
-              <a class="w-100" href="register-next.html" target="">
-                <button type="button" class="s-signin-button w-100">
+              <a class="w-100 mt-3" href="register-next.html" target="">
+                <button type="submit" class="s-signin-button w-100">
                   Continue with email
                 </button>
               </a>
