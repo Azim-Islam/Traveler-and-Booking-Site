@@ -600,6 +600,32 @@
         max-width: 1030px;
         height: 64px;
     }
+    .t-footer-h2{
+        font-family: 'SF Pro Display', sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 19.09px;
+        letter-spacing: 0.02em;
+        text-align: left;
+        color: #000000;
+    }
+    
+    .t-footer-ul{
+        list-style: none;
+        text-decoration: none;
+        
+        a{  
+            font-family: 'SF Pro Display', sans-serif;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 16.71px;
+            letter-spacing: 0.02em;
+            text-align: left;
+            color: #4F4F4F;
+            text-decoration: none;
+        }
+    }
+
 }
 
 
@@ -642,6 +668,33 @@
             }
         }
     }
+    
+    .t-footer-h2{
+        font-family: 'SF Pro Display', sans-serif;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 19.09px;
+        letter-spacing: 0.02em;
+        text-align: left;
+        color: #000000;
+    }
+    
+    .t-footer-ul{
+        list-style: none;
+        text-decoration: none;
+        
+        a{  
+            font-family: 'SF Pro Display', sans-serif;
+            font-size: 10px;
+            font-weight: 400;
+            line-height: 16.71px;
+            letter-spacing: 0.02em;
+            text-align: left;
+            color: #4F4F4F;
+            text-decoration: none;
+        }
+    }
+
     
 
 
@@ -694,31 +747,6 @@
         margin-top: 40px;
     }
     
-    .t-footer-h2{
-        font-family: 'SF Pro Display', sans-serif;
-        font-size: 14px;
-        font-weight: 500;
-        line-height: 19.09px;
-        letter-spacing: 0.02em;
-        text-align: left;
-        color: #000000;
-    }
-    
-    .t-footer-ul{
-        list-style: none;
-        text-decoration: none;
-        
-        a{  
-            font-family: 'SF Pro Display', sans-serif;
-            font-size: 12px;
-            font-weight: 400;
-            line-height: 16.71px;
-            letter-spacing: 0.02em;
-            text-align: left;
-            color: #4F4F4F;
-            text-decoration: none;
-        }
-    }
     
     
 }
@@ -809,6 +837,33 @@
             text-justify: center;
         }
     }
+
+    .t-footer-h2{
+        font-family: 'SF Pro Display', sans-serif;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 19.09px;
+        letter-spacing: 0.02em;
+        text-align: left;
+        color: #000000;
+    }
+    
+    .t-footer-ul{
+        list-style: none;
+        text-decoration: none;
+        
+        a{  
+            font-family: 'SF Pro Display', sans-serif;
+            font-size: 10px;
+            font-weight: 400;
+            line-height: 16.71px;
+            letter-spacing: 0.02em;
+            text-align: left;
+            color: #4F4F4F;
+            text-decoration: none;
+        }
+    }
+
     
     
 
